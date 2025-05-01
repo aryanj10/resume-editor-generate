@@ -1,0 +1,152 @@
+{
+  "name": "Aryan Jain",
+  "email": "aj3246@drexel.edu",
+  "phone": "(267) 315-9768",
+  "linkedin": "https://linkedin.com/in/aryanj10",
+  "github": "https://aryanj10.github.io",
+  "education": [
+    {
+      "degree": "MS Data Science",
+      "school": "Drexel University",
+      "location": "Philadelphia, PA",
+      "date": "Sept 2023 -- June 2025",
+      "gpa": "3.9"
+    },
+    {
+      "degree": "Bachelor of Technology (Hons.) - Computer Science and Business Systems",
+      "school": "NMIMS University",
+      "location": "Mumbai, India",
+      "date": "July 2019 --  May 2023"
+    }
+  ],
+  "skills": {
+    "Certifications": [
+      "Azure Data Scientist Associate",
+      "Azure AI Engineer Associate"
+    ],
+    "Programming": [
+      "Python",
+      "R",
+      "SQL",
+      "MATLAB",
+      "JavaScript",
+      "C/C++",
+      "HTML",
+      "CSS"
+    ],
+    "ML": [
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost",
+      "LightGBM",
+      "OpenCV",
+      "SpaCy",
+      "BERT",
+      "Langchain",
+      "Time Series"
+    ],
+    "Cloud": [
+      "AWS (S3, RDS, EC2)",
+      "Azure",
+      "Databricks",
+      "PySpark",
+      "MySQL",
+      "Docker",
+      "MLflow",
+      "CI/CD Pipelines"
+    ],
+    "Visualization": [
+      "Tableau",
+      "Power BI",
+      "Plotly",
+      "Dash",
+      "Matplotlib",
+      "Seaborn",
+      "Streamlit",
+      "Flask",
+      "FastAPI",
+      "RESTful APIs"
+    ]
+  },
+  "work_experience": [
+    {
+      "title": "Data Analyst Intern",
+      "company": "MitraQSR",
+      "location": "Dallas, TX",
+      "duration": "Sept 2024 -- Dec 2024",
+      "bullets": [
+        "Developed FbProphet models to forecast revenue and expenses for 178 stores, deployed via Azure Kubernetes Service and Azure Machine Learning, boosting EBITDA by 5% and optimizing cost forecasting",
+        "Built a SQL-powered Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%",
+        "Engineered a reporting system using FastAPI and ETL pipelines to process financial statements, improving EBITDA tracking and reducing report latency by 40%"
+      ]
+    },
+    {
+      "title": "Data Analyst and Support Intern",
+      "company": "Barrier Breakers Inc.",
+      "location": "Princeton, NJ",
+      "duration": "June 2024 -- Sept 2024",
+      "bullets": [
+        "Led the migration from Trello, Evernote, and Zoho CRM to Monday.com via API integrations, ensuring 99% data accuracy",
+        "Developed Python scripts to automate data transfer using APIs, reducing manual work by 80%"
+      ]
+    },
+    {
+      "title": "Data Scientist, Junior Associate",
+      "company": "Celebal Technologies",
+      "location": "India",
+      "duration": "Jan 2021 -- Sept 2022",
+      "bullets": [
+        "Led a three-member team to develop a Profit and Loss Dashboard using Tableau, integrating FastAPI for backend services and PostgreSQL for data storage, reducing financial analysis time by 30%",
+        "Built forecasting models (ARIMA, LSTM) for revenue and expenses and deployed via Azure Machine Learning and Kubernetes, achieving 5% MAPE and enhancing financial planning accuracy",
+        "Developed a regression model using XGBoost and CatBoost to estimate employee count and revenue, reducing RMSE by 18% with SHAP for interpretability and MLflow for tracking"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Comcast AI Challenge Winner",
+      "org": "Philly Codefest 2025",
+      "date": "Mar 2025",
+      "bullets": [
+        "Created an AI generated animated video using META AI, Runway ML, and Stable Diffusion for character animation, scene generation, and visual effects",
+        "Integrated generative AI for scriptwriting and voice synthesis using GPT-4, LangChain, and ElevenLabs, ensuring natural dialogues and expressive voiceovers"
+      ]
+    },
+    {
+      "title": "Medical Insurance Risk Prediction",
+      "org": "Drexel University",
+      "date": "Dec 2023",
+      "bullets": [
+        "Designed XGBoost and Random Forest models to forecast premiums and risk categories, achieving 92% accuracy",
+        "Launched scalable Dash app on Azure App Services for real-time risk scoring and premium simulations"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Research Assistant",
+      "org": "Drexel University",
+      "bullets": [
+        "Deployed ResNetbased image classification model on NVIDIA Triton Inference Server, achieving batch inference of 5,000 images within 12 seconds in a single request"
+      ]
+    },
+    {
+      "title": "Course Assistant",
+      "org": "Human-AI Interaction",
+      "institution": "Drexel University",
+      "bullets": [
+        "Guided 30+ students on ethical AI frameworks, algorithmic fairness, explainable AI, and responsible data ownership"
+      ]
+    },
+    {
+      "title": "Teaching Assistant",
+      "org": "Data Science Programming",
+      "institution": "Drexel University",
+      "bullets": [
+        "Instructed 70+ students in Python, Linux, Git version control, and efficient data processing with NumPy and Pandas",
+        "Designed, graded, and provided feedback on coding assignments focused on scalable data wrangling, file I/O operations, and high-performance computing techniques"
+      ]
+    }
+  ]
+}
