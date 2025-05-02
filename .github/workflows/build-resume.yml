@@ -1,4 +1,3 @@
-# .github/workflows/build-resume.yml
 name: Build Resume PDF
 
 on:
@@ -28,7 +27,9 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Install LaTeX
-      run: sudo apt update && sudo apt install -y texlive-latex-base
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y texlive-full
 
     - name: Generate PDF
       run: python -c "from utils.render import render_resume; render_resume()"
