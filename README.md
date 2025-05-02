@@ -128,8 +128,8 @@ The output PDF format is controlled by:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/resume-builder.git
-cd resume-builder
+git clone https://github.com/aryanj10/resume-editor-generate.git
+cd resume-editor-generate
 ```
 
 ### Install requirements
