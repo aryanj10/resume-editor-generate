@@ -26,7 +26,7 @@ def render_resume(data_path, template_path, output_dir):
 
     # Write LaTeX file to output directory
     os.makedirs(output_dir, exist_ok=True)
-    tex_path = os.path.join(output_dir, "resume.tex")
+    tex_path = os.path.join(output_dir, "Aryan_Jain_Resume.tex")
     with open(tex_path, 'w') as f:
         f.write(rendered_tex)
 
