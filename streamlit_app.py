@@ -49,6 +49,6 @@ with right:
             base64_pdf = base64.b64encode(f.read()).decode("utf-8")
             pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="800px" type="application/pdf"></iframe>'
             st.markdown(pdf_display, unsafe_allow_html=True)
-        st.download_button("📥 Download PDF", open(PDF_PATH, "rb"), file_name="Aryan_Jain_Resume.pdf", mime="application/pdf")
+
     else:
         st.info("No PDF generated yet.")
