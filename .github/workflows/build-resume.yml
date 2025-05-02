@@ -1,0 +1,48 @@
+# .github/workflows/build-resume.yml
+name: Build Resume PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - resume_data/**
+      - template/**
+      - utils/**
+      - streamlit_app.py
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install Python dependencies
+      run: pip install -r requirements.txt
+
+    - name: Install LaTeX
+      run: sudo apt update && sudo apt install -y texlive-latex-base
+
+    - name: Generate PDF
+      run: python -c "from utils.render import render_resume; render_resume()"
+
+    - name: Copy to docs/
+      run: |
+        mkdir -p docs
+        cp output/resume.pdf docs/index.pdf
+        echo "<meta http-equiv='refresh' content='0; url=index.pdf'>" > docs/index.html
+
+    - name: Commit updated resume
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add docs/
+        git commit -m "🤖 Auto-update resume PDF via GitHub Actions" || echo "No changes to commit"
+        git push
