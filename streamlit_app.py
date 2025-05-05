@@ -9,7 +9,7 @@ from streamlit_ace import st_ace
 DATA_PATH = "resume_data/resume_data.json"
 TEMPLATE_PATH = "template/resume_template.tex"
 OUTPUT_DIR = "output"
-PDF_PATH = os.path.join(OUTPUT_DIR, "resume.pdf")
+PDF_PATH = os.path.join(OUTPUT_DIR, "Aryan_Jain_Resume.pdf")
 
 st.set_page_config(page_title="📄 Resume Builder", layout="wide")
 st.markdown("# 📄 Resume Editor")

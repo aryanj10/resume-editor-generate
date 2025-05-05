@@ -8,6 +8,12 @@ This project is a customizable resume builder where you can:
 
 ---
 
+## Preview
+
+![Resume Builder Demo](assets/demo.gif)
+
+---
+
 ## 🚀 Features
 
 - JSON-based resume structure (easy to edit, reuse, or version-control)
