@@ -39,13 +39,12 @@
 \section*{TECHNICAL SKILLS} 
 \vspace{-0.2cm}
 \noindent
-\textbf{Certifications:} ((( skills.Certifications | join(", ") ))) \\
 \textbf{Programming:} ((( skills.Programming | join(", ") ))) \\
 \textbf{ML and AI:} ((( skills.ML | join(", ") ))) \\
 \textbf{Cloud and DevOps:} ((( skills.Cloud | join(", ") ))) \\
 \textbf{Visualization and APIs:} ((( skills.Visualization | join(", ") )))
 
-\vspace{-0.4cm}
+\vspace{-0.5cm}
 \section*{WORK EXPERIENCE}
 ((* for job in work_experience *))
 \vspace{-0.2cm}
@@ -59,10 +58,10 @@
 \end{itemize}
 ((* endfor *))
 
-\vspace{-0.4cm}
+\vspace{-0.75cm}
 \section*{PROJECTS}
-((* for project in projects *))
 \vspace{-0.1cm}
+((* for project in projects *))
 \noindent
 \textbf{((( project.title ))) \texttt{|} ((( project.org )))} \hfill \textbf{((( project.date )))} \\
 \vspace{-0.4cm}
@@ -78,13 +77,22 @@
 \vspace{-0.1cm}
 ((* for lead in leadership *))
 \noindent
-\textbf{((( lead.title ))) \textbar{} ((( lead.org )))((* if lead.institution *)) \textbar{} \textbf{((( lead.institution ))) }((* endif *))} \\
+\textbf{((( lead.title ))) \textbar{} ((( lead.org )))((* if lead.institution *)) \textbar{} ((( lead.institution ))) ((* endif *)) \hfill ((( lead.date)))} \\
 \vspace{-0.4cm}
 \begin{itemize}[leftmargin=0.6cm, itemsep=-0.1cm, topsep=0cm]
 ((* for bullet in lead.bullets *))
     \item ((( bullet | replace('%', '\\%') )))
 ((* endfor *))
 \end{itemize}
+((* endfor *))
+
+
+\vspace{-0.4cm} 
+\section*{CERTIFICATIONS} 
+\vspace{-0.2cm}
+((* for cert in certifications *))
+\noindent
+\textbf{((( cert.name ))) \textbar{} ((( cert.org ))) } \hfill \textbf{((( cert.date ))) }
 ((* endfor *))
 
 \end{document}
