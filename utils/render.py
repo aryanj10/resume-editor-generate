@@ -3,6 +3,14 @@ import os
 import subprocess
 from jinja2 import Environment, FileSystemLoader
 
+import shutil
+import sys
+
+def check_pdflatex():
+    if shutil.which("pdflatex") is None:
+        sys.exit("❌ pdflatex not found. Please install a LaTeX distribution like TeX Live or MiKTeX.")
+
+
 def render_resume(data_path, template_path, output_dir):
     # Load JSON data
     with open(data_path) as f:

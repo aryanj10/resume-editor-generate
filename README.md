@@ -166,7 +166,11 @@ resume_project/
 
 ## ⚠ Requirements
 - Python 3.9+
-- `pdflatex` installed (via TeX Live, MiKTeX, etc.)
+- Streamlit, Jinja2 (install via `pip install -r requirements.txt`)
+- `pdflatex` (for PDF generation):
+  - **Windows**: [MiKTeX](https://miktex.org/download)
+  - **macOS**: [MacTeX](https://tug.org/mactex/)
+  - **Linux**: `sudo apt install texlive-full`
 
 # Coming Soon
 GitHub Actions for automatic resume builds
