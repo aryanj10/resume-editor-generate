@@ -3,7 +3,7 @@
   "email": "aj3246@drexel.edu",
   "phone": "(267) 315-9768",
   "linkedin": "https://linkedin.com/in/aryanj10",
-  "github": "https://aryanj10.github.io",
+  "github": "https://github.com/aryanj10",
   "education": [
     {
       "degree": "MS Data Science",
@@ -13,7 +13,7 @@
       "gpa": "3.9"
     },
     {
-      "degree": "Bachelor of Technology (Hons.) - Computer Science and Business Systems",
+      "degree": "B.S. in Computer Science with Business Minor",
       "school": "NMIMS University",
       "location": "Mumbai, India",
       "date": "July 2019 --  May 2023"
@@ -112,7 +112,7 @@
     {
       "title": "Medical Insurance Risk Prediction",
       "org": "Drexel University",
-      "date": "Dec 2023",
+      "date": "Dec 2023 -- Feb 2024",
       "bullets": [
         "Designed XGBoost and Random Forest models to forecast premiums and risk categories, achieving 92% accuracy",
         "Launched scalable Dash app on Azure App Services for real-time risk scoring and premium simulations"
@@ -121,9 +121,19 @@
   ],
   "leadership": [
     {
+      "title": "Teaching Assistant",
+      "org": "Data Science Programming",
+      "institution": "Drexel University",
+      "date": "Mar 2025 -- June 2025",
+      "bullets": [
+        "Instructed 70+ students in Python, Linux, Git version control, and efficient data processing with NumPy and Pandas",
+        "Designed and graded coding tasks on data wrangling, file I/O, and high-performance computing techniques"
+      ]
+    },
+    {
       "title": "Research Assistant",
       "org": "Drexel University",
-      "date": "Jan 2025",
+      "date": "Jan 2025 -- June 2025",
       "bullets": [
         "Deployed ResNet based classifer on NVIDIA Triton Inference Server to batch infer 5,000 images in 12s in a single request"
       ]
@@ -135,16 +145,6 @@
       "date": "Dec 2024 -- Mar 2025",
       "bullets": [
         "Guided 30+ students on ethical AI frameworks, algorithmic fairness, explainable AI, and responsible data ownership"
-      ]
-    },
-    {
-      "title": "Teaching Assistant",
-      "org": "Data Science Programming",
-      "institution": "Drexel University",
-      "date": "Mar 2025 -- June 2025",
-      "bullets": [
-        "Instructed 70+ students in Python, Linux, Git version control, and efficient data processing with NumPy and Pandas",
-        "Designed and graded coding tasks on data wrangling, file I/O, and high-performance computing techniques"
       ]
     }
   ],
