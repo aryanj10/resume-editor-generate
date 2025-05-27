@@ -14,6 +14,28 @@ This project is a customizable resume builder where you can:
 
 ---
 
+## 🚫 Deployment Note
+This project is not deployed on a free platform because it requires LaTeX for PDF generation, which significantly increases the Docker image size. Most free-tier services (like Streamlit Cloud or Render) impose limits on memory and container size, making it impractical to host.
+
+However, you can easily run it locally or in the cloud using Docker.
+
+## 🐳 Run with Docker
+
+### 1. Build the Docker Image
+```bash
+docker build -t resume-builder .
+```
+
+### 2. Run the Contanier
+```bash
+docker run -p 8080:8080 resume-builder
+```
+
+### 3. Open on Browser
+Then open http://localhost:8080 in your browser to use the app locally.
+
+---
+
 ## 🚀 Features
 
 - JSON-based resume structure (easy to edit, reuse, or version-control)

@@ -126,8 +126,8 @@
       "institution": "Drexel University",
       "date": "Mar 2025 -- June 2025",
       "bullets": [
-        "Instructed 70+ students in Python, Linux, Git version control, and efficient data processing with NumPy and Pandas",
-        "Designed and graded coding tasks on data wrangling, file I/O, and high-performance computing techniques"
+        "Assisted instruction for 70+ students in Python, Linux, Github, and efficient data processing with NumPy and Pandas",
+        "Designed and graded coding tasks on  NumPy, data wrangling, file I/O, and high-performance computing techniques"
       ]
     },
     {
@@ -135,7 +135,7 @@
       "org": "Drexel University",
       "date": "Jan 2025 -- June 2025",
       "bullets": [
-        "Deployed ResNet based classifer on NVIDIA Triton Inference Server to batch infer 5,000 images in 12s in a single request"
+        "Deployed ResNet based classifer on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s in a single request"
       ]
     },
     {
@@ -144,7 +144,8 @@
       "institution": "Drexel University",
       "date": "Dec 2024 -- Mar 2025",
       "bullets": [
-        "Guided 30+ students on ethical AI frameworks, algorithmic fairness, explainable AI, and responsible data ownership"
+        "Guided 30+ students on ethical AI frameworks, algorithmic fairness, explainable AI, and responsible data ownership",
+        "Provided project mentorship and feedback aligned with Responsible AI curriculum"
       ]
     }
   ],

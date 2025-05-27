@@ -3,7 +3,7 @@
   "email": "aj3246@drexel.edu",
   "phone": "(267) 315-9768",
   "linkedin": "https://linkedin.com/in/aryanj10",
-  "github": "https://aryanj10.github.io",
+  "github": "https://github.com/aryanj10",
   "education": [
     {
       "degree": "MS Data Science",
@@ -13,17 +13,13 @@
       "gpa": "3.9"
     },
     {
-      "degree": "Bachelor of Technology (Hons.) - Computer Science and Business Systems",
+      "degree": "B.S. in Computer Science with Business Minor",
       "school": "NMIMS University",
       "location": "Mumbai, India",
       "date": "July 2019 --  May 2023"
     }
   ],
   "skills": {
-    "Certifications": [
-      "Azure Data Scientist Associate",
-      "Azure AI Engineer Associate"
-    ],
     "Programming": [
       "Python",
       "R",
@@ -76,9 +72,9 @@
       "location": "Dallas, TX",
       "duration": "Sept 2024 -- Dec 2024",
       "bullets": [
-        "Developed FbProphet models to forecast revenue and expenses for 178 stores, deployed via Azure Kubernetes Service and Azure Machine Learning, boosting EBITDA by 5% and optimizing cost forecasting",
+        "Developed time series models for 178 stores to forecast revenue and expenses, improving forecast accuracy by 10%",
         "Built a SQL-powered Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%",
-        "Engineered a reporting system using FastAPI and ETL pipelines to process financial statements, improving EBITDA tracking and reducing report latency by 40%"
+        "Automated ETL workflows using FastAPI, cutting financial data processing time from 6 hours to under 3 hours"
       ]
     },
     {
@@ -109,14 +105,14 @@
       "org": "Philly Codefest 2025",
       "date": "Mar 2025",
       "bullets": [
-        "Created an AI generated animated video using META AI, Runway ML, and Stable Diffusion for character animation, scene generation, and visual effects",
-        "Integrated generative AI for scriptwriting and voice synthesis using GPT-4, LangChain, and ElevenLabs, ensuring natural dialogues and expressive voiceovers"
+        "Created a generative AI-based animated video using tools like META AI, Runway ML for character and scene generation",
+        "Integrated GPT-4 and ElevenLabs for script generation and voice synthesis, creating expressive and human-like dialogues"
       ]
     },
     {
       "title": "Medical Insurance Risk Prediction",
       "org": "Drexel University",
-      "date": "Dec 2023",
+      "date": "Dec 2023 -- Feb 2024",
       "bullets": [
         "Designed XGBoost and Random Forest models to forecast premiums and risk categories, achieving 92% accuracy",
         "Launched scalable Dash app on Azure App Services for real-time risk scoring and premium simulations"
@@ -125,28 +121,53 @@
   ],
   "leadership": [
     {
+      "title": "Teaching Assistant",
+      "org": "Data Science Programming",
+      "institution": "Drexel University",
+      "date": "Mar 2025 -- June 2025",
+      "bullets": [
+        "Instructed 70+ students in Python, Linux, Git version control, and efficient data processing with NumPy and Pandas",
+        "Designed and graded coding tasks on data wrangling, file I/O, and high-performance computing techniques"
+      ]
+    },
+    {
       "title": "Research Assistant",
       "org": "Drexel University",
+      "date": "Jan 2025 -- June 2025",
       "bullets": [
-        "Deployed ResNetbased image classification model on NVIDIA Triton Inference Server, achieving batch inference of 5,000 images within 12 seconds in a single request"
+        "Deployed ResNet based classifer on NVIDIA Triton Inference Server to batch infer 5,000 images in 12s in a single request"
       ]
     },
     {
       "title": "Course Assistant",
       "org": "Human-AI Interaction",
       "institution": "Drexel University",
+      "date": "Dec 2024 -- Mar 2025",
       "bullets": [
         "Guided 30+ students on ethical AI frameworks, algorithmic fairness, explainable AI, and responsible data ownership"
       ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Azure Data Scientist Associate",
+      "org": "Microsoft",
+      "date": "May 2022"
     },
     {
-      "title": "Teaching Assistant",
-      "org": "Data Science Programming",
-      "institution": "Drexel University",
-      "bullets": [
-        "Instructed 70+ students in Python, Linux, Git version control, and efficient data processing with NumPy and Pandas",
-        "Designed, graded, and provided feedback on coding assignments focused on scalable data wrangling, file I/O operations, and high-performance computing techniques"
-      ]
+      "name": "Azure AI Engineer Associate",
+      "org": "Microsoft",
+      "date": "Mar 2022"
+    },
+    {
+      "name": "Azure AI Fundamentals",
+      "org": "Microsoft",
+      "date": "Jan 2022"
+    },
+    {
+      "name": "Azure Fundamentals",
+      "org": "Microsoft",
+      "date": "Jan 2022"
     }
   ]
 }
