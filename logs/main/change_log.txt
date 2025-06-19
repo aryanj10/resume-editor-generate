@@ -362,3 +362,35 @@ Full JSON:
     ]
   }
 }
+
+
+--- 2025-06-19 13:50:32 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -9,7 +9,7 @@
+       "degree": "MS Data Science",
+       "school": "Drexel University",
+       "location": "Philadelphia, PA",
+-      "date": "Sept 2023 -- June 2025",
++      "date": "Sept 2023 -- June 202",
+       "gpa": "3.9"
+     },
+     {
+
+
+--- 2025-06-19 13:50:57 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -9,7 +9,7 @@
+       "degree": "MS Data Science",
+       "school": "Drexel University",
+       "location": "Philadelphia, PA",
+-      "date": "Sept 2023 -- June 202",
++      "date": "Sept 2023 -- June 2025",
+       "gpa": "3.9"
+     },
+     {

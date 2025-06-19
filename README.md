@@ -5,19 +5,24 @@ This project is a customizable resume builder where you can:
 - 📝 Edit your resume content in a JSON file (via a Streamlit UI)
 - 📄 Automatically generate a PDF resume using a LaTeX template
 - 🔁 See a live preview and download your resume instantly
+- 📜 Track every change with timestamped logs
+- 🔍 Review a unified diff of edits across versions
 
 ---
 
-## Preview
+## 📸 Preview
 
 ![Resume Builder Demo](assets/demo.gif)
 
 ---
 
 ## 🚫 Deployment Note
+
 This project is not deployed on a free platform because it requires LaTeX for PDF generation, which significantly increases the Docker image size. Most free-tier services (like Streamlit Cloud or Render) impose limits on memory and container size, making it impractical to host.
 
 However, you can easily run it locally or in the cloud using Docker.
+
+---
 
 ## 🐳 Run with Docker
 
@@ -26,129 +31,51 @@ However, you can easily run it locally or in the cloud using Docker.
 docker build -t resume-builder .
 ```
 
-### 2. Run the Contanier
+### 2. Run the Container
 ```bash
 docker run -p 8080:8080 resume-builder
 ```
 
-### 3. Open on Browser
-Then open http://localhost:8080 in your browser to use the app locally.
+### 3. Open in Browser
+Open [http://localhost:8080](http://localhost:8080) to use the app.
 
 ---
 
 ## 🚀 Features
 
-- JSON-based resume structure (easy to edit, reuse, or version-control)
-- Streamlit interface with side-by-side:
-  - JSON editor (with syntax highlighting)
-  - PDF preview
-- LaTeX-powered formatting for professional typography
-- Download-ready resume generation
+- ✍️ **JSON-based resume editor** — Easily edit your content in a structured format
+- 📄 **LaTeX formatting** — Professionally styled output with full typography control
+- 📤 **Live PDF preview** — Instantly view the output as you make edits
+- 💾 **Download-ready PDF**
+- 🧠 **Change logs** — Every time you generate a PDF:
+  - Logs the diff of what was edited
+  - Includes timestamp, resume variant, and only changed lines
+- 📜 **Log viewer** tab in the UI — Review recent edits sorted from newest to oldest
 
 ---
 
-## 🖼 Output Format
+## 📂 Output Format
 
-The PDF resume generated will exactly follow the structure and formatting defined in:
+The PDF output is defined by the LaTeX template in:
 
-
-### template/resume_template.tex
-The output PDF format is controlled by:
-
-```latex
-\documentclass[10pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
-\pagenumbering{gobble}
-\usepackage{enumitem}
-\usepackage{titlesec}
-\usepackage{hyperref}
-\usepackage[dvipsnames]{xcolor}
-\definecolor{darkblue}{HTML}{0013FF}
-\usepackage{setspace}
-\setstretch{1.1} 
-
-\hypersetup{
-    colorlinks=true,
-    urlcolor=darkblue
-}
-
-\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
-
-\begin{document}
-
-\begin{center}
-    \textbf{\fontsize{18}{18}\selectfont ((( name )))} \\
-    ((( phone ))) \texttt{|} \href{mailto:((( email )))}{((( email )))} \texttt{|}
-    \href{((( github )))}{((( github )))} \texttt{|}  
-    \href{((( linkedin )))}{((( linkedin )))}
-\end{center}
-
-\vspace{-0.7cm}
-\section*{EDUCATION} 
-\vspace{-0.2cm} 
-((* for edu in education *))
-\noindent 
-\textbf{((( edu.degree )))} \hfill \textbf{((( edu.date )))} \\
-\textit{((( edu.school )))} \texttt{|} \textit{((( edu.location )))} ((* if edu.gpa *))\hfill GPA: ((( edu.gpa )))((* endif *))
-((* endfor *))
-
-\vspace{-0.4cm} 
-\section*{TECHNICAL SKILLS} 
-\vspace{-0.2cm}
-\noindent
-\textbf{Certifications:} ((( skills.Certifications | join(", ") ))) \\
-\textbf{Programming:} ((( skills.Programming | join(", ") ))) \\
-\textbf{ML and AI:} ((( skills.ML | join(", ") ))) \\
-\textbf{Cloud and DevOps:} ((( skills.Cloud | join(", ") ))) \\
-\textbf{Visualization and APIs:} ((( skills.Visualization | join(", ") )))
-
-\vspace{-0.4cm}
-\section*{WORK EXPERIENCE}
-((* for job in work_experience *))
-\vspace{-0.2cm}
-\noindent
-\textbf{((( job.title ))) \texttt{|} ((( job.company ))) \texttt{|} ((( job.location )))} \hfill \textbf{((( job.duration )))} 
-\vspace{-0.15cm}
-\begin{itemize}[leftmargin=0.5cm, itemsep=0pt]
-((* for bullet in job.bullets *))
-    \item ((( bullet | replace('%', '\\%') )))
-((* endfor *))
-\end{itemize}
-((* endfor *))
-
-\vspace{-0.4cm}
-\section*{PROJECTS}
-((* for project in projects *))
-\vspace{-0.1cm}
-\noindent
-\textbf{((( project.title ))) \texttt{|} ((( project.org )))} \hfill \textbf{((( project.date )))} \\
-\vspace{-0.4cm}
-\begin{itemize}[leftmargin=0.6cm, itemsep=-0.1cm, topsep=0cm]
-((* for bullet in project.bullets *))
-    \item ((( bullet | replace('%', '\\%') )))
-((* endfor *))
-\end{itemize}
-((* endfor *))
-
-\vspace{-0.4cm}
-\section*{LEADERSHIP and RESEARCH}
-\vspace{-0.1cm}
-((* for lead in leadership *))
-\noindent
-\textbf{((( lead.title ))) \textbar{} ((( lead.org )))((* if lead.institution *)) \textbar{} \textbf{((( lead.institution ))) }((* endif *))} \\
-\vspace{-0.4cm}
-\begin{itemize}[leftmargin=0.6cm, itemsep=-0.1cm, topsep=0cm]
-((* for bullet in lead.bullets *))
-    \item ((( bullet | replace('%', '\\%') )))
-((* endfor *))
-\end{itemize}
-((* endfor *))
-
-\end{document}
+```
+template/resume_template.tex
 ```
 
-> 🛠 **To change visual styling** (font size, spacing, section layout), modify the `.tex` file, not the JSON.
+To customize visual styling (fonts, sections, spacing), modify the `.tex` file.
+
+---
+
+## 🧪 Example Log Entry
+
+```diff
+--- 2025-06-19 14:20:51 ---
+Variant: main, Publication: Yes
+Changes:
+@@ -12,7 +12,7 @@
+-    "degree": "M.S. in Data Science",
++    "degree": "MS Data Science",
+```
 
 ---
 
@@ -160,48 +87,59 @@ git clone https://github.com/aryanj10/resume-editor-generate.git
 cd resume-editor-generate
 ```
 
-### Install requirements
+### 2. Install requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the app
+### 3. Run the app
 ```bash
 streamlit run streamlit_app.py
 ```
 
+---
 
-## File Structure
-```protobuf
+## 📁 File Structure
+
+```
 resume_project/
 ├── resume_data/
-│   └── resume_data.json       # Editable JSON resume content
+│   └── main/resume_data.json         # Your editable JSON resume
 ├── template/
-│   └── resume_template.tex    # LaTeX resume template
+│   └── resume_template.tex           # LaTeX resume layout
 ├── output/
-│   └── resume.pdf             # Compiled PDF
+│   └── main/Aryan_Jain_Resume.pdf   # Generated PDFs
+├── logs/
+│   └── main/change_log.txt           # Timestamped change logs (diff only)
 ├── utils/
-│   └── render.py              # Template renderer using Jinja2 + pdflatex
-├── streamlit_app.py           # Streamlit UI for editing & preview
+│   └── render.py                     # Jinja2 + pdflatex PDF generator
+├── streamlit_app.py                  # Streamlit UI
 └── requirements.txt
 ```
 
-## ⚠ Requirements
+---
+
+## ⚙ Requirements
+
 - Python 3.9+
-- Streamlit, Jinja2 (install via `pip install -r requirements.txt`)
-- `pdflatex` (for PDF generation):
+- Streamlit, Jinja2 (install with `pip install -r requirements.txt`)
+- `pdflatex` for LaTeX PDF generation
   - **Windows**: [MiKTeX](https://miktex.org/download)
   - **macOS**: [MacTeX](https://tug.org/mactex/)
   - **Linux**: `sudo apt install texlive-full`
 
-# Coming Soon
-GitHub Actions for automatic resume builds
+---
 
-Section-specific UI editors (optional)
+## 🧠 Coming Soon
 
-PDF themes
+- Section-specific WYSIWYG form editors
+- Revert to previous log snapshot
+- GitHub Actions for automatic PDF builds
+
+---
 
 ## 👨‍💻 Built By
+
 **Aryan Jain**  
 M.S. Data Science @ Drexel University  
 🔗 [LinkedIn](https://linkedin.com/in/aryanj10) · 🌐 [Website](https://aryanj10.github.io)
