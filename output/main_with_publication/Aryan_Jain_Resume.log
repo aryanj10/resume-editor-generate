@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.5)  19 JUN 2025 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.5)  19 JUN 2025 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./output/Aryan_Jain_Resume.tex
-(output/Aryan_Jain_Resume.tex
+**./output/main_with_publication/Aryan_Jain_Resume.tex
+(output/main_with_publication/Aryan_Jain_Resume.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -254,7 +254,8 @@ tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count278
 \l__pdf_internal_box=\box53
-) (C:\Users\aryan\Resume_Project\output\Aryan_Jain_Resume.aux)
+)
+No file Aryan_Jain_Resume.aux.
 \openout1 = `Aryan_Jain_Resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -275,7 +276,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -311,8 +311,6 @@ LaTeX Font Info:    ... okay on input line 20.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 20.
-(C:\Users\aryan\Resume_Project\output\Aryan_Jain_Resume.out)
-(C:\Users\aryan\Resume_Project\output\Aryan_Jain_Resume.out)
 \@outlinefile=\write3
 \openout3 = `Aryan_Jain_Resume.out'.
 
@@ -349,7 +347,8 @@ LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
 [1
 
 {C:/Users/aryan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(C:\Users\aryan\Resume_Project\output\Aryan_Jain_Resume.aux)
+(C:\Users\aryan\Resume_Project\output\main_with_publication\Aryan_Jain_Resume.a
+ux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -359,17 +358,23 @@ L3 programming layer <2024-01-04>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.72pt have occurred.
 
-Package rerunfilecheck Info: File `Aryan_Jain_Resume.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package rerunfilecheck Warning: File `Aryan_Jain_Resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Aryan_Jain_Resume.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9738 strings out of 474486
- 153362 string characters out of 5743756
- 1948542 words of memory out of 5000000
- 31935 multiletter control sequences out of 15000+600000
+ 9730 strings out of 474486
+ 153122 string characters out of 5743756
+ 1949542 words of memory out of 5000000
+ 31933 multiletter control sequences out of 15000+600000
  560393 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,283b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,305b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\aryan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbsy10.pfb><C:/Users/aryan/AppData/Local/Programs/MiKTeX/fonts/type1/pub
@@ -378,8 +383,8 @@ type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/aryan/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/aryan/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on C:\Users\aryan\Resume_Project\output\Aryan_Jain_Resume.pdf (1
- page, 99842 bytes).
+Output written on C:\Users\aryan\Resume_Project\output\main_with_publication\Ar
+yan_Jain_Resume.pdf (1 page, 100212 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

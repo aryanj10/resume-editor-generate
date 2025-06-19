@@ -1,0 +1,164 @@
+{
+  "name": "Aryan Jain",
+  "email": "aj3246@drexel.edu",
+  "phone": "(267) 315-9768",
+  "linkedin": "https://linkedin.com/in/aryanj10",
+  "github": "https://github.com/aryanj10",
+  "education": [
+    {
+      "degree": "MS Data Science",
+      "school": "Drexel University",
+      "location": "Philadelphia, PA",
+      "date": "Sept 2023 -- June 2025",
+      "gpa": "3.9"
+    }
+  ],
+  "work_experience": [
+    {
+      "title": "Data Science Intern",
+      "company": "MitraQSR",
+      "location": "Dallas, TX",
+      "duration": "Sept 2024 -- Dec 2024",
+      "bullets": [
+        "Developed time series models for 178 stores to forecast revenue and expenses, improving forecast accuracy by 10%",
+        "Built a RAG pipeline (FAISS + Gemini Pro) so decision-makers could query financial data and gain insights",
+        "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
+      ]
+    },
+    {
+      "title": "Data Analyst Intern",
+      "company": "Barrier Breakers Inc.",
+      "location": "Princeton, NJ",
+      "duration": "June 2024 -- Sept 2024",
+      "bullets": [
+        "Led the migration from Trello, Evernote, and Zoho CRM to Monday.com via API integrations, ensuring 99% data accuracy",
+        "Developed Python scripts to automate data transfer using APIs, reducing manual work by 80%"
+      ]
+    },
+    {
+      "title": "Data Scientist, Junior Associate",
+      "company": "Celebal Technologies",
+      "location": "India",
+      "duration": "Jan 2021 -- Sept 2022",
+      "bullets": [
+        "Led a three-member team to develop a Profit and Loss Dashboard using Tableau, integrating FastAPI for backend services and PostgreSQL for data storage, reducing financial analysis time by 30%",
+        "Built forecasting models (ARIMA, LSTM) for revenue and expenses and deployed via Azure Machine Learning and Kubernetes, achieving 5% MAPE and enhancing financial planning accuracy",
+        "Developed a regression model using XGBoost and CatBoost to estimate employee count and revenue, reducing RMSE by 18% with SHAP for interpretability and MLflow for tracking"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Comcast AI Challenge Winner",
+      "org": "Philly Codefest 2025",
+      "date": "Mar 2025",
+      "bullets": [
+        "Created a generative AI-based animated video using tools like META AI, Runway ML for character and scene generation",
+        "Integrated GPT-4 and ElevenLabs for script generation and voice synthesis, creating expressive and human-like dialogues"
+      ]
+    },
+    {
+      "title": "Medical Insurance Risk Prediction",
+      "org": "Drexel University",
+      "date": "Dec 2023 -- Feb 2024",
+      "bullets": [
+        "Designed XGBoost and Random Forest models to forecast premiums and risk categories, achieving 92% accuracy",
+        "Launched scalable Dash app on Azure App Services for real-time risk scoring and premium simulations"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Teaching Assistant",
+      "org": "Data Science Programming",
+      "institution": "Drexel University",
+      "date": "Mar 2025 -- June 2025",
+      "bullets": [
+        "Assisted instruction for 70+ students in Python, Linux, Github, and efficient data processing with NumPy and Pandas",
+        "Designed and graded coding tasks on  NumPy, data wrangling, file I/O, and high-performance computing techniques"
+      ]
+    },
+    {
+      "title": "Research Assistant",
+      "org": "Drexel University",
+      "date": "Jan 2025 -- June 2025",
+      "bullets": [
+        "Deployed ResNet based classifer on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s in a single request",
+        "Optimized a PyTorch-based training pipeline with CUDA kernels, reducing model training time by 40% on A100 GPUs"
+      ]
+    },
+    {
+      "title": "Course Assistant",
+      "org": "Human-AI Interaction",
+      "institution": "Drexel University",
+      "date": "Dec 2024 -- Mar 2025",
+      "bullets": [
+        "Guided 30+ students on ethical AI frameworks, algorithmic fairness, explainable AI, and responsible data ownership",
+        "Provided project mentorship and feedback aligned with Responsible AI curriculum"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Azure Data Scientist Associate",
+      "org": "Microsoft",
+      "date": "May 2022"
+    },
+    {
+      "name": "Azure AI Engineer Associate",
+      "org": "Microsoft",
+      "date": "Mar 2022"
+    }
+  ],
+  "publications": [
+    {
+      "full": "Jain Aryan, Vora Khushi, Verma Shrey, Churi Prathamesh. Addressing Algorithmic Bias in Healthcare: An Experimental Analysis of Bias Detection and Mitigation Techniques (March 30, 2025). https://dx.doi.org/10.2139/ssrn.5198538"
+    }
+  ],
+  "skills": {
+    "Programming": [
+      "Python",
+      "R",
+      "SQL",
+      "MATLAB",
+      "JavaScript",
+      "C/C++",
+      "HTML",
+      "CSS"
+    ],
+    "ML": [
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "XGBoost",
+      "LightGBM",
+      "OpenCV",
+      "SpaCy",
+      "BERT",
+      "Langchain",
+      "Time Series"
+    ],
+    "Cloud": [
+      "AWS (S3, RDS, EC2)",
+      "Azure",
+      "Databricks",
+      "PySpark",
+      "MySQL",
+      "Docker",
+      "MLflow",
+      "CI/CD Pipelines"
+    ],
+    "Visualization": [
+      "Tableau",
+      "Power BI",
+      "Plotly",
+      "Dash",
+      "Matplotlib",
+      "Seaborn",
+      "Streamlit",
+      "Flask",
+      "FastAPI",
+      "RESTful APIs"
+    ]
+  }
+}
