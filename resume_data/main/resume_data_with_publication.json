@@ -55,21 +55,30 @@
   ],
   "projects": [
     {
-      "title": "Comcast AI Challenge Winner",
-      "org": "Philly Codefest 2025",
-      "date": "Mar 2025",
+      "title": "CW-RIS: Child Wind Risk Intelligence System",
+      "org": "UN Tech Over Hackathon",
+      "date": "June 2025",
       "bullets": [
-        "Created a generative AI-based animated video using tools like META AI, Runway ML for character and scene generation",
-        "Integrated GPT-4 and ElevenLabs for script generation and voice synthesis, creating expressive and human-like dialogues"
+        "Built Streamlit app that overlays ERA5 wind data with child population exposure to map high-risk zones",
+        "Computed zonal statistics and risk scores using raster and vector geospatial data for humanitarian use"
       ]
     },
     {
-      "title": "Medical Insurance Risk Prediction",
+      "title": "Explainable AI for Image Classification",
       "org": "Drexel University",
-      "date": "Dec 2023 -- Feb 2024",
+      "date": "May 2025",
       "bullets": [
-        "Designed XGBoost and Random Forest models to forecast premiums and risk categories, achieving 92% accuracy",
-        "Launched scalable Dash app on Azure App Services for real-time risk scoring and premium simulations"
+        "Trained ResNet-18 classifier to detect real vs diffusion-generated cat images with 91% accuracy",
+        "Applied Grad-CAM and a Twin System (case-based reasoning) for visual and example-based explanations"
+      ]
+    },
+    {
+      "title": "High-Speed Inference with Triton and PyTorch",
+      "org": "Drexel University",
+      "date": "Jan 2025 -- June 2025",
+      "bullets": [
+        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s per request",
+        "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 40% on A100 GPUs"
       ]
     }
   ],
@@ -82,15 +91,6 @@
       "bullets": [
         "Assisted instruction for 70+ students in Python, Linux, Github, and efficient data processing with NumPy and Pandas",
         "Designed and graded coding tasks on  NumPy, data wrangling, file I/O, and high-performance computing techniques"
-      ]
-    },
-    {
-      "title": "Research Assistant",
-      "org": "Drexel University",
-      "date": "Jan 2025 -- June 2025",
-      "bullets": [
-        "Deployed ResNet based classifer on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s in a single request",
-        "Optimized a PyTorch-based training pipeline with CUDA kernels, reducing model training time by 40% on A100 GPUs"
       ]
     },
     {

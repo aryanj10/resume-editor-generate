@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.5)  19 JUN 2025 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.5)  1 JUL 2025 09:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,12 +344,12 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 48.
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-19.
+30.
 (C:\Users\aryan\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 119.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 130.
 
 [1
 
@@ -385,7 +385,7 @@ eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/aryan/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/aryan/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on C:\Users\aryan\Resume_Project\output\main_with_publication\Ar
-yan_Jain_Resume.pdf (1 page, 100212 bytes).
+yan_Jain_Resume.pdf (1 page, 100790 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

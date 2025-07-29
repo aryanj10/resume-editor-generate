@@ -394,3 +394,987 @@ Changes:
        "gpa": "3.9"
      },
      {
+
+
+--- 2025-06-19 15:23:19 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -16,7 +16,7 @@
+       "degree": "B.S. in Computer Science with Business Minor",
+       "school": "NMIMS University",
+       "location": "Mumbai, India",
+-      "date": "July 2019 --  May 2024"
++      "date": "July 2019 --  May 2023"
+     }
+   ],
+   "work_experience": [
+
+
+--- 2025-06-19 15:23:42 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -13,7 +13,7 @@
+       "gpa": "3.9"
+     },
+     {
+-      "degree": "B.S. in Computer Science with Business Minor",
++      "degree": "BS Computer Science with Business Minor",
+       "school": "NMIMS University",
+       "location": "Mumbai, India",
+       "date": "July 2019 --  May 2023"
+
+
+--- 2025-06-25 13:14:23 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+     {
+       "title": "AI Ethics and Governance Publications",
+       "org": "Drexel University",
+-      "date": "Mar 2025 \u2013 June 2025",
++      "date": "Mar 2025 -- June 2025",
+       "bullets": [
+         "Wrote op-ed 'Is AI Neutral?' exploring algorithmic bias, saliency datasets, and explainability in real-world AI systems",
+         "Drafted position paper on embedding human values in AI governance, citing GDPR, UDHR, and IEEE frameworks",
+
+
+--- 2025-06-25 13:15:03 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+     {
+       "title": "AI Ethics and Governance Publications",
+       "org": "Drexel University",
+-      "date": "Mar 2025 -- June 2025",
++      "date": "Jan 2024",
+       "bullets": [
+         "Wrote op-ed 'Is AI Neutral?' exploring algorithmic bias, saliency datasets, and explainability in real-world AI systems",
+         "Drafted position paper on embedding human values in AI governance, citing GDPR, UDHR, and IEEE frameworks",
+
+
+--- 2025-06-25 13:20:05 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -61,6 +61,16 @@
+       "bullets": [
+         "Created a generative AI-based animated video using tools like META AI, Runway ML for character and scene generation",
+         "Integrated GPT-4 and ElevenLabs for script generation and voice synthesis, creating expressive and human-like dialogues"
++      ]
++    },
++    {
++      "title": "Responsible AI and Bias Mitigation Research",
++      "org": "Drexel University",
++      "date": "Mar 2025",
++      "bullets": [
++        "Co-authored a published preprint on algorithmic bias in healthcare AI systems, exploring over 12 fairness metrics and 3 debiasing techniques across 5 classifiers",
++        "Benchmarked impact of mitigation methods (DIR, Reweighting, Meta Fair Classifier) on fairness-accuracy tradeoffs using Adult and Diabetes datasets",
++        "Provided actionable insights for responsible AI policy design, reinforcing international AI governance efforts aligned with UN SDGs"
+       ]
+     },
+     {
+
+
+--- 2025-06-25 13:22:00 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -69,7 +69,7 @@
+       "date": "Mar 2025",
+       "bullets": [
+         "Co-authored a published preprint on algorithmic bias in healthcare AI systems, exploring over 12 fairness metrics and 3 debiasing techniques across 5 classifiers",
+-        "Benchmarked impact of mitigation methods (DIR, Reweighting, Meta Fair Classifier) on fairness-accuracy tradeoffs using Adult and Diabetes datasets",
++        "Benchmarked impact of mitigation methods (DIR, Reweighting) on fairness-accuracy tradeoffs using Adult and Diabetes datasets",
+         "Provided actionable insights for responsible AI policy design, reinforcing international AI governance efforts aligned with UN SDGs"
+       ]
+     },
+
+
+--- 2025-06-25 13:22:16 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -69,7 +69,7 @@
+       "date": "Mar 2025",
+       "bullets": [
+         "Co-authored a published preprint on algorithmic bias in healthcare AI systems, exploring over 12 fairness metrics and 3 debiasing techniques across 5 classifiers",
+-        "Benchmarked impact of mitigation methods (DIR, Reweighting) on fairness-accuracy tradeoffs using Adult and Diabetes datasets",
++        "Benchmarked impact of mitigation methods (DIR, Reweighting) on fairness-accuracy tradeoffs using Diabetes datasets",
+         "Provided actionable insights for responsible AI policy design, reinforcing international AI governance efforts aligned with UN SDGs"
+       ]
+     },
+
+
+--- 2025-06-25 13:22:52 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -68,7 +68,7 @@
+       "org": "Drexel University",
+       "date": "Mar 2025",
+       "bullets": [
+-        "Co-authored a published preprint on algorithmic bias in healthcare AI systems, exploring over 12 fairness metrics and 3 debiasing techniques across 5 classifiers",
++        "Co-authored a published preprint on algorithmic bias in AI systems, exploring over 12 fairness metrics and 3 debiasing techniques across 5 classifiers",
+         "Benchmarked impact of mitigation methods (DIR, Reweighting) on fairness-accuracy tradeoffs using Diabetes datasets",
+         "Provided actionable insights for responsible AI policy design, reinforcing international AI governance efforts aligned with UN SDGs"
+       ]
+
+
+--- 2025-06-25 13:23:02 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -68,7 +68,7 @@
+       "org": "Drexel University",
+       "date": "Mar 2025",
+       "bullets": [
+-        "Co-authored a published preprint on algorithmic bias in AI systems, exploring over 12 fairness metrics and 3 debiasing techniques across 5 classifiers",
++        "Co-authored a published preprint on algorithmic bias in healthcare AI systems, exploring over 12 fairness metrics and 3 debiasing techniques across 5 classifiers",
+         "Benchmarked impact of mitigation methods (DIR, Reweighting) on fairness-accuracy tradeoffs using Diabetes datasets",
+         "Provided actionable insights for responsible AI policy design, reinforcing international AI governance efforts aligned with UN SDGs"
+       ]
+
+
+--- 2025-06-25 13:24:09 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -69,8 +69,7 @@
+       "date": "Mar 2025",
+       "bullets": [
+         "Co-authored a published preprint on algorithmic bias in healthcare AI systems, exploring over 12 fairness metrics and 3 debiasing techniques across 5 classifiers",
+-        "Benchmarked impact of mitigation methods (DIR, Reweighting) on fairness-accuracy tradeoffs using Diabetes datasets",
+-        "Provided actionable insights for responsible AI policy design, reinforcing international AI governance efforts aligned with UN SDGs"
++        "Benchmarked impact of mitigation methods (DIR, Reweighting) on fairness-accuracy tradeoffs using Diabetes datasets"
+       ]
+     },
+     {
+
+
+--- 2025-06-25 14:21:17 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -61,15 +61,6 @@
+       "bullets": [
+         "Created a generative AI-based animated video using tools like META AI, Runway ML for character and scene generation",
+         "Integrated GPT-4 and ElevenLabs for script generation and voice synthesis, creating expressive and human-like dialogues"
+-      ]
+-    },
+-    {
+-      "title": "Responsible AI and Bias Mitigation Research",
+-      "org": "Drexel University",
+-      "date": "Mar 2025",
+-      "bullets": [
+-        "Co-authored a published preprint on algorithmic bias in healthcare AI systems, exploring over 12 fairness metrics and 3 debiasing techniques across 5 classifiers",
+-        "Benchmarked impact of mitigation methods (DIR, Reweighting) on fairness-accuracy tradeoffs using Diabetes datasets"
+       ]
+     },
+     {
+
+
+--- 2025-06-25 14:22:21 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -16,7 +16,7 @@
+       "degree": "B.S. in Computer Science with Business Minor",
+       "school": "NMIMS University",
+       "location": "Mumbai, India",
+-      "date": "July 2019 --  May 2023"
++      "date": "July 2019 --  May 202"
+     }
+   ],
+   "work_experience": [
+@@ -64,13 +64,12 @@
+       ]
+     },
+     {
+-      "title": "AI Ethics and Governance Publications",
++      "title": "Medical Insurance Risk Prediction",
+       "org": "Drexel University",
+-      "date": "Jan 2024",
++      "date": "Dec 2023 -- Feb 2024",
+       "bullets": [
+-        "Wrote op-ed 'Is AI Neutral?' exploring algorithmic bias, saliency datasets, and explainability in real-world AI systems",
+-        "Drafted position paper on embedding human values in AI governance, citing GDPR, UDHR, and IEEE frameworks",
+-        "Analyzed global AI governance models and their implications for fairness, transparency, and algorithmic accountability"
++        "Designed XGBoost and Random Forest models to forecast premiums and risk categories, achieving 92% accuracy",
++        "Launched scalable Dash app on Azure App Services for real-time risk scoring and premium simulations"
+       ]
+     }
+   ],
+@@ -83,6 +82,15 @@
+       "bullets": [
+         "Assisted instruction for 70+ students in Python, Linux, Github, and efficient data processing with NumPy and Pandas",
+         "Designed and graded coding tasks on  NumPy, data wrangling, file I/O, and high-performance computing techniques"
++      ]
++    },
++    {
++      "title": "Research Assistant",
++      "org": "Drexel University",
++      "date": "Jan 2025 -- June 2025",
++      "bullets": [
++        "Deployed ResNet based classifer on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s in a single request",
++        "Optimized a PyTorch-based training pipeline with CUDA kernels, reducing model training time by 40% on A100 GPUs"
+       ]
+     },
+     {
+
+
+--- 2025-06-30 12:28:03 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -55,6 +55,15 @@
+   ],
+   "projects": [
+     {
++      "title": "CW-RIS: Child Wind Risk Intelligence System",
++      "org": "UN Tech Over Hackathon",
++      "date": "June 2025",
++      "bullets": [
++        "Built Streamlit app that overlays ERA5 wind data with child population exposure to map high-risk zones",
++        "Computed zonal statistics and risk scores using raster and vector geospatial data for humanitarian use"
++      ]
++    },
++    {
+       "title": "Comcast AI Challenge Winner",
+       "org": "Philly Codefest 2025",
+       "date": "Mar 2025",
+@@ -64,12 +73,21 @@
+       ]
+     },
+     {
+-      "title": "Medical Insurance Risk Prediction",
++      "title": "High-Speed Inference with Triton and PyTorch",
+       "org": "Drexel University",
+-      "date": "Dec 2023 -- Feb 2024",
++      "date": "Jan 2025 -- June 2025",
+       "bullets": [
+-        "Designed XGBoost and Random Forest models to forecast premiums and risk categories, achieving 92% accuracy",
+-        "Launched scalable Dash app on Azure App Services for real-time risk scoring and premium simulations"
++        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s per request",
++        "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 40% on A100 GPUs"
++      ]
++    },
++    {
++      "title": "Explainable AI for Image Classification",
++      "org": "Independent Project",
++      "date": "May 2025",
++      "bullets": [
++        "Trained ResNet-18 classifier to detect real vs diffusion-generated cat images with 91% accuracy",
++        "Applied Grad-CAM and a Twin System (case-based reasoning) for visual and example-based explanations"
+       ]
+     }
+   ],
+@@ -82,15 +100,6 @@
+       "bullets": [
+         "Assisted instruction for 70+ students in Python, Linux, Github, and efficient data processing with NumPy and Pandas",
+         "Designed and graded coding tasks on  NumPy, data wrangling, file I/O, and high-performance computing techniques"
+-      ]
+-    },
+-    {
+-      "title": "Research Assistant",
+-      "org": "Drexel University",
+-      "date": "Jan 2025 -- June 2025",
+-      "bullets": [
+-        "Deployed ResNet based classifer on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s in a single request",
+-        "Optimized a PyTorch-based training pipeline with CUDA kernels, reducing model training time by 40% on A100 GPUs"
+       ]
+     },
+     {
+
+
+--- 2025-06-30 12:30:15 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -64,6 +64,15 @@
+       ]
+     },
+     {
++      "title": "Explainable AI for Image Classification",
++      "org": "Independent Project",
++      "date": "May 2025",
++      "bullets": [
++        "Trained ResNet-18 classifier to detect real vs diffusion-generated cat images with 91% accuracy",
++        "Applied Grad-CAM and a Twin System (case-based reasoning) for visual and example-based explanations"
++      ]
++    },
++    {
+       "title": "Comcast AI Challenge Winner",
+       "org": "Philly Codefest 2025",
+       "date": "Mar 2025",
+@@ -79,15 +88,6 @@
+       "bullets": [
+         "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s per request",
+         "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 40% on A100 GPUs"
+-      ]
+-    },
+-    {
+-      "title": "Explainable AI for Image Classification",
+-      "org": "Independent Project",
+-      "date": "May 2025",
+-      "bullets": [
+-        "Trained ResNet-18 classifier to detect real vs diffusion-generated cat images with 91% accuracy",
+-        "Applied Grad-CAM and a Twin System (case-based reasoning) for visual and example-based explanations"
+       ]
+     }
+   ],
+
+
+--- 2025-06-30 12:30:43 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -65,7 +65,7 @@
+     },
+     {
+       "title": "Explainable AI for Image Classification",
+-      "org": "Independent Project",
++      "org": "Drexel University",
+       "date": "May 2025",
+       "bullets": [
+         "Trained ResNet-18 classifier to detect real vs diffusion-generated cat images with 91% accuracy",
+
+
+--- 2025-06-30 12:32:40 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -13,10 +13,10 @@
+       "gpa": "3.9"
+     },
+     {
+-      "degree": "B.S. in Computer Science with Business Minor",
++      "degree": "BS Computer Science with Business Minor",
+       "school": "NMIMS University",
+       "location": "Mumbai, India",
+-      "date": "July 2019 --  May 202"
++      "date": "July 2019 --  May 2023"
+     }
+   ],
+   "work_experience": [
+
+
+--- 2025-07-01 15:12:00 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -49,7 +49,7 @@
+       "bullets": [
+         "Led a three-member team to develop a Profit and Loss Dashboard using Tableau, integrating FastAPI for backend services and PostgreSQL for data storage, reducing financial analysis time by 30%",
+         "Built forecasting models (ARIMA, LSTM) for revenue and expenses and deployed via Azure Machine Learning and Kubernetes, achieving 5% MAPE and enhancing financial planning accuracy",
+-        "Developed a regression model using XGBoost and CatBoost to estimate employee count and revenue, reducing RMSE by 18% with SHAP for interpretability and MLflow for tracking"
++        "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+     }
+   ],
+
+
+--- 2025-07-01 15:12:53 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -27,7 +27,7 @@
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+         "Developed time series models for 178 stores to forecast revenue and expenses, improving forecast accuracy by 10%",
+-        "Built a RAG pipeline (FAISS + Gemini Pro) so decision-makers could query financial data and gain insights",
++        "Developed a RAG pipeline (FAISS + Gemini Pro) with query ranking and semantic search for financial insight retrieval.",
+         "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
+       ]
+     },
+
+
+--- 2025-07-01 15:14:14 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -27,7 +27,7 @@
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+         "Developed time series models for 178 stores to forecast revenue and expenses, improving forecast accuracy by 10%",
+-        "Developed a RAG pipeline (FAISS + Gemini Pro) with query ranking and semantic search for financial insight retrieval.",
++        "Developed a RAG pipeline (FAISS + LLM API)) with query ranking and semantic search for financial insight retrieval.",
+         "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
+       ]
+     },
+
+
+--- 2025-07-01 15:15:01 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -27,7 +27,7 @@
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+         "Developed time series models for 178 stores to forecast revenue and expenses, improving forecast accuracy by 10%",
+-        "Developed a RAG pipeline (FAISS + LLM API)) with query ranking and semantic search for financial insight retrieval.",
++        "Developed a RAG pipeline (FAISS + LLM API) with query ranking and semantic search for financial insight retrieval.",
+         "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
+       ]
+     },
+
+
+--- 2025-07-01 15:23:25 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -38,7 +38,8 @@
+       "duration": "June 2024 -- Sept 2024",
+       "bullets": [
+         "Led the migration from Trello, Evernote, and Zoho CRM to Monday.com via API integrations, ensuring 99% data accuracy",
+-        "Developed Python scripts to automate data transfer using APIs, reducing manual work by 80%"
++        "Developed Python scripts to automate data transfer using APIs, reducing manual work by 80%",
++        "Built scripts to automate task flows, email categorization, and data syncing across platforms, improving response and data processing time by 60%"
+       ]
+     },
+     {
+
+
+--- 2025-07-01 15:24:08 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -39,7 +39,7 @@
+       "bullets": [
+         "Led the migration from Trello, Evernote, and Zoho CRM to Monday.com via API integrations, ensuring 99% data accuracy",
+         "Developed Python scripts to automate data transfer using APIs, reducing manual work by 80%",
+-        "Built scripts to automate task flows, email categorization, and data syncing across platforms, improving response and data processing time by 60%"
++        "Built scripts to automate task flows, and data syncing across platforms, improving response and data processing time by 60%"
+       ]
+     },
+     {
+
+
+--- 2025-07-01 15:24:30 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -39,7 +39,7 @@
+       "bullets": [
+         "Led the migration from Trello, Evernote, and Zoho CRM to Monday.com via API integrations, ensuring 99% data accuracy",
+         "Developed Python scripts to automate data transfer using APIs, reducing manual work by 80%",
+-        "Built scripts to automate task flows, and data syncing across platforms, improving response and data processing time by 60%"
++        "Built scripts to automate task flows, data syncing across platforms, improving response and data processing time by 60%"
+       ]
+     },
+     {
+
+
+--- 2025-07-01 15:25:04 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -38,7 +38,6 @@
+       "duration": "June 2024 -- Sept 2024",
+       "bullets": [
+         "Led the migration from Trello, Evernote, and Zoho CRM to Monday.com via API integrations, ensuring 99% data accuracy",
+-        "Developed Python scripts to automate data transfer using APIs, reducing manual work by 80%",
+         "Built scripts to automate task flows, data syncing across platforms, improving response and data processing time by 60%"
+       ]
+     },
+
+
+--- 2025-07-21 13:18:55 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -26,7 +26,7 @@
+       "location": "Dallas, TX",
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+-        "Extracted P&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
++        "Extracted profit and loss L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Developed a RAG pipeline (FAISS + LLM API) with query ranking and semantic search for financial insight retrieval.",
+         "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
+       ]
+
+
+--- 2025-07-21 13:19:21 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -26,7 +26,7 @@
+       "location": "Dallas, TX",
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+-        "Extracted profit and loss L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
++        "Extracted data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Developed a RAG pipeline (FAISS + LLM API) with query ranking and semantic search for financial insight retrieval.",
+         "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
+       ]
+
+
+--- 2025-07-21 13:24:43 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -27,7 +27,7 @@
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+         "Extracted data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+-        "Identified $12K+ EBITDA gaps from high maintenance, rent, and training, helping execs focus on underperforming locations",
++        "Identified 12K+ EBITDA gaps from high maintenance, rent, and training, helping execs focus on underperforming locations",
+         "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
+       ]
+     },
+
+
+--- 2025-07-21 13:25:17 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -27,7 +27,7 @@
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+         "Extracted data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+-        "Identified 12K+ EBITDA gaps from high maintenance, rent, and training, helping execs focus on underperforming locations",
++        "Identified 12K+ EBITDA gaps from high maintenance, and training, helping execs focus on underperforming locations",
+         "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
+       ]
+     },
+
+
+--- 2025-07-21 13:30:19 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -26,7 +26,7 @@
+       "location": "Dallas, TX",
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+-        "Extracted P&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
++        "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Developed a RAG pipeline (FAISS + LLM API) with query ranking and semantic search for financial insight retrieval.",
+         "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
+       ]
+
+
+--- 2025-07-21 13:31:16 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -28,7 +28,7 @@
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Developed a RAG pipeline (FAISS + LLM API) with query ranking and semantic search for financial insight retrieval.",
+-        "Designed a Dash dashboard on Azure App Service to track 30+ financial KPIs, cutting reporting time by 40%"
++        "Identified \\$12K+ EBITDA gaps from high maintenance, rent, and training, helping execs focus on underperforming locations"
+       ]
+     },
+     {
+
+
+--- 2025-07-21 13:32:06 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -28,7 +28,7 @@
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Developed a RAG pipeline (FAISS + LLM API) with query ranking and semantic search for financial insight retrieval.",
+-        "Identified \\$12K+ EBITDA gaps from high maintenance, rent, and training, helping execs focus on underperforming locations"
++        "Identified \\$12K+ EBITDA gaps from high maintenance, overtime, and training, helping execs focus on underperforming locations"
+       ]
+     },
+     {
+
+
+--- 2025-07-21 13:33:09 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -28,7 +28,7 @@
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Developed a RAG pipeline (FAISS + LLM API) with query ranking and semantic search for financial insight retrieval.",
+-        "Identified \\$12K+ EBITDA gaps from high maintenance, overtime, and training, helping execs focus on underperforming locations"
++        "Identified \\$12K+ EBITDA gaps from high maintenance, overtime, helping execs focus on underperforming locations"
+       ]
+     },
+     {
+
+
+--- 2025-07-21 13:35:00 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -27,7 +27,7 @@
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+-        "Built a RAG tool with FAISS + LLM API to answer queries like \\\u201cWhich Region X store had highest revenue in Period Y?",
++        "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+         "Identified \\$12K+ EBITDA gaps from high maintenance, overtime, helping execs focus on underperforming locations"
+       ]
+     },
+
+
+--- 2025-07-21 13:43:14 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -37,8 +37,8 @@
+       "location": "Princeton, NJ",
+       "duration": "June 2024 -- Sept 2024",
+       "bullets": [
+-        "Led the migration from Trello, Evernote, and Zoho CRM to Monday.com via API integrations, ensuring 99% data accuracy",
+-        "Built scripts to automate task flows, data syncing across platforms, improving response and data processing time by 60%"
++        "Migrated 1000+ student records from Trello, Evernote, and Zoho to Monday.com with 99% data accuracy",
++        "Built automation scripts to trigger workflows from form fills, cutting manual task handling by 48%"
+       ]
+     },
+     {
+
+
+--- 2025-07-21 14:04:33 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -48,7 +48,7 @@
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+         "Led a three-member team to develop a Profit and Loss Dashboard using Tableau, integrating FastAPI for backend services and PostgreSQL for data storage, reducing financial analysis time by 30%",
+-        "Built forecasting models (ARIMA, LSTM) for revenue and expenses and deployed via Azure Machine Learning and Kubernetes, achieving 5% MAPE and enhancing financial planning accuracy",
++        "Analyzed 20M+ US/Canada business records to identify gaps in revenue and headcount prediction; proposed hybrid CatBoost models per industry",
+         "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+     }
+
+
+--- 2025-07-21 14:04:58 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -47,7 +47,7 @@
+       "location": "India",
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+-        "Led a three-member team to develop a Profit and Loss Dashboard using Tableau, integrating FastAPI for backend services and PostgreSQL for data storage, reducing financial analysis time by 30%",
++        "Presented EDA and model diagnostics to client CTO; improved RMSE by 18% via industry-specific regressors and feature tuning",
+         "Analyzed 20M+ US/Canada business records to identify gaps in revenue and headcount prediction; proposed hybrid CatBoost models per industry",
+         "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+
+
+--- 2025-07-21 14:05:37 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -49,7 +49,7 @@
+       "bullets": [
+         "Presented EDA and model diagnostics to client CTO; improved RMSE by 18% via industry-specific regressors and feature tuning",
+         "Analyzed 20M+ US/Canada business records to identify gaps in revenue and headcount prediction; proposed hybrid CatBoost models per industry",
+-        "Led P&L forecasting project; built SARIMA and Prophet models, deployed FastAPI services on Azure for BI dashboard integration"
++        "Led P\\&L forecasting project; built SARIMA and Prophet models, deployed FastAPI services on Azure for BI dashboard integration"
+       ]
+     }
+   ],
+
+
+--- 2025-07-21 14:08:34 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -47,9 +47,9 @@
+       "location": "India",
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+-        "Delivered exploratory data analysis and model diagnostics to the client CTO, improving RMSE by 18% using industry-specific regressors and feature engineering",
+-        "Analyzed 20M+ US/Canada business records with 400+ features to identify model blind spots; proposed hybrid CatBoost models segmented by industry to boost accuracy",
+-        "Led end-to-end P&L forecasting pipeline using SARIMA and Prophet; deployed modular FastAPI services on Azure to support BI dashboard integration and scenario analysis"
++        "Analyzed gaps in revenue and headcount prediction models across 20M+ US/Canada business records; recommended industry-specific CatBoost models to improve accuracy in underperforming segments",
++        "Analyzed gaps in revenue/headcount predictions for 20M+ records; proposed industry-specific CatBoost models for weak segments",
++        "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+     }
+   ],
+
+
+--- 2025-07-21 14:09:17 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -48,7 +48,7 @@
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+         "Analyzed gaps in revenue and headcount prediction models across 20M+ US/Canada business records; recommended industry-specific CatBoost models to improve accuracy in underperforming segments",
+-        "Analyzed gaps in revenue/headcount predictions for 20M+ records; proposed industry-specific CatBoost models for weak segments",
++        "Presented EDA and modeling insights to client CTO; improved predictions for underperforming verticals in US/Canada B2B data",
+         "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+     }
+
+
+--- 2025-07-21 14:14:48 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -48,7 +48,7 @@
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+         "Analyzed gaps in revenue and headcount prediction models across 20M+ US/Canada business records, recommended industry-specific CatBoost models to improve accuracy in underperforming segments",
+-        "Presented EDA and modeling insights to the client\u2019s CTO, highlighting where the model\u2019s performance dropped across specific business verticals and recommending strategies to address prediction gaps in revenue and headcount estimates",
++        "Presented EDA and modeling insights to the clients CTO, highlighting where the models performance dropped across specific business verticals and recommending strategies to address prediction gaps in revenue and headcount estimates",
+         "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+     }
+
+
+--- 2025-07-21 14:15:13 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -48,7 +48,7 @@
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+         "Analyzed gaps in revenue and headcount prediction models across 20M+ US/Canada business records, recommended industry-specific CatBoost models to improve accuracy in underperforming segments",
+-        "Presented EDA and modeling insights to the clients CTO, highlighting where the models performance dropped across specific business verticals and recommending strategies to address prediction gaps in revenue and headcount estimates",
++        "Presented EDA and modeling insights to the client's CTO, highlighting where the models performance dropped across specific business verticals and recommending strategies to address prediction gaps in revenue and headcount estimates",
+         "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+     }
+
+
+--- 2025-07-21 14:15:33 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -48,7 +48,7 @@
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+         "Analyzed gaps in revenue and headcount prediction models across 20M+ US/Canada business records, recommended industry-specific CatBoost models to improve accuracy in underperforming segments",
+-        "Presented EDA and modeling insights to the client's CTO, highlighting where the models performance dropped across specific business verticals and recommending strategies to address prediction gaps in revenue and headcount estimates",
++        "Presented EDA and modeling insights to the client's CTO, highlighting where the model's performance dropped across specific business verticals and recommending strategies to address prediction gaps in revenue and headcount estimates",
+         "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+     }
+
+
+--- 2025-07-21 14:16:43 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -47,7 +47,7 @@
+       "location": "India",
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+-        "Analyzed gaps in revenue and headcount prediction models across 20M+ US/Canada business records, recommended industry-specific CatBoost models to improve accuracy in underperforming segments",
++        "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific CatBoost solutions to improve accuracy in weak-performing sectors",
+         "Presented EDA and modeling insights to the client's CTO, highlighting where the model's performance dropped across specific business verticals and recommending strategies to address prediction gaps in revenue and headcount estimates",
+         "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+
+
+--- 2025-07-21 14:17:12 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -48,7 +48,7 @@
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+         "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific CatBoost solutions to improve accuracy in weak-performing sectors",
+-        "Presented EDA and modeling insights to the client's CTO, highlighting where the model's performance dropped across specific business verticals and recommending strategies to address prediction gaps in revenue and headcount estimates",
++        "Presented EDA findings to the client's CTO, using data visualizations to explain model weaknesses across verticals and guide modeling decisions",
+         "Built ML models to predict company revenue and headcount from messy financial data, resolving entity-level inconsistencies; improved RMSE by 18% with SHAP explanations and MLflow tracking."
+       ]
+     }
+
+
+--- 2025-07-21 14:18:59 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -49,7 +49,7 @@
+       "bullets": [
+         "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific CatBoost solutions to improve accuracy in weak-performing sectors",
+         "Presented EDA findings to the client's CTO, using data visualizations to explain model weaknesses across verticals and guide modeling decisions",
+-        "Led P&L forecasting project, built SARIMA and Prophet models, deployed FastAPI services on Azure for BI dashboard integration"
++        "Led P\\&L forecasting project, built SARIMA and Prophet models, deployed FastAPI services on Azure for BI dashboard integration"
+       ]
+     }
+   ],
+
+
+--- 2025-07-21 14:20:03 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -49,7 +49,7 @@
+       "bullets": [
+         "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific CatBoost solutions to improve accuracy in weak-performing sectors",
+         "Presented EDA findings to the client's CTO, using data visualizations to explain model weaknesses across verticals and guide modeling decisions",
+-        "Led P\\&L forecasting project, built SARIMA and Prophet models, deployed FastAPI services on Azure for BI dashboard integration"
++        "Led P\\&L dashboard build; developed forecasting APIs (SARIMA, Prophet) and deployed with FastAPI on Azure for BI integration"
+       ]
+     }
+   ],
+
+
+--- 2025-07-21 14:20:30 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -49,7 +49,7 @@
+       "bullets": [
+         "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific CatBoost solutions to improve accuracy in weak-performing sectors",
+         "Presented EDA findings to the client's CTO, using data visualizations to explain model weaknesses across verticals and guide modeling decisions",
+-        "Led P\\&L dashboard build; developed forecasting APIs (SARIMA, Prophet) and deployed with FastAPI on Azure for BI integration"
++        "Led P\\&L dashboard build; developed forecasting APIs (SARIMA, Prophet) and deployed on Azure for BI integration"
+       ]
+     }
+   ],
+
+
+--- 2025-07-21 15:09:04 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -47,8 +47,8 @@
+       "location": "India",
+       "duration": "Jan 2021 -- Sept 2022",
+       "bullets": [
+-        "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific CatBoost solutions to improve accuracy in weak-performing sectors",
+-        "Presented exploratory data analysis and modeling insights to the client\u2019s CTO, highlighting where the model\u2019s performance dropped across specific business vertical",
++        "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific XGBoost solutions to improve accuracy in weak-performing sectors",
++        "Presented EDA and modeling insights to the client, highlighting where the model's performance dropped across industries",
+         "Led P\\&L dashboard build; developed forecasting APIs (SARIMA, Prophet) and deployed on Azure for BI integration"
+       ]
+     }
+
+
+--- 2025-07-24 16:55:07 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -54,16 +54,6 @@
+     }
+   ],
+   "projects": [
+-    {
+-      "title": "LLM-Powered Payroll Migration Tool",
+-      "org": "Personal Project",
+-      "date": "July 2025",
+-      "bullets": [
+-        "Parsed 1,000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+-        "Built Playwright bot to automate payroll uploads to Accountant World\u2019s non-API portal across 85+ clients",
+-        "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations"
+-      ]
+-    },
+     {
+       "title": "CW-RIS: Child Wind Risk Intelligence System",
+       "org": "UN Tech Over Hackathon",
+
+
+--- 2025-07-24 16:56:46 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -60,7 +60,7 @@
+       "date": "July 2025",
+       "bullets": [
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+-        "Built Playwright bot to automate payroll uploads to Accountant World\u2019s non-API portal across 85+ clients",
++        "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations"
+       ]
+     },
+
+
+--- 2025-07-25 14:44:42 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -1,5 +1,6 @@
+ {
+   "name": "Aryan Jain",
++  "location": "New York City",
+   "email": "aj3246@drexel.edu",
+   "phone": "(267) 315-9768",
+   "linkedin": "https://linkedin.com/in/aryanj10",
+
+
+--- 2025-07-25 14:44:58 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -1,6 +1,5 @@
+ {
+   "name": "Aryan Jain",
+-  "location": "New York City",
+   "email": "aj3246@drexel.edu",
+   "phone": "(267) 315-9768",
+   "linkedin": "https://linkedin.com/in/aryanj10",
+
+
+--- 2025-07-25 14:46:05 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -1,5 +1,6 @@
+ {
+   "name": "Aryan Jain",
++  "location": "New York City",
+   "email": "aj3246@drexel.edu",
+   "phone": "(267) 315-9768",
+   "linkedin": "https://linkedin.com/in/aryanj10",
