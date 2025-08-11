@@ -35,14 +35,6 @@
 \textit{((( edu.school )))} \texttt{|} \textit{((( edu.location )))} ((* if edu.gpa *))\hfill GPA: ((( edu.gpa )))((* endif *))
 ((* endfor *))
 
-\vspace{-0.4cm} 
-\section*{TECHNICAL SKILLS} 
-\vspace{-0.2cm}
-\noindent
-\textbf{Programming:} ((( skills.Programming | join(", ") ))) \\
-\textbf{ML and AI:} ((( skills.ML | join(", ") ))) \\
-\textbf{Cloud and DevOps:} ((( skills.Cloud | join(", ") ))) \\
-\textbf{Visualization and APIs:} ((( skills.Visualization | join(", ") )))
 
 \vspace{-0.4cm}
 \section*{WORK EXPERIENCE}
@@ -65,12 +57,25 @@
 \noindent
 \textbf{((( project.title ))) \texttt{|} ((( project.org )))} \hfill \textbf{((( project.date )))} \\
 \vspace{-0.4cm}
-\begin{itemize}[leftmargin=0.5cm, itemsep=0pt, topsep=0cm]
+\begin{itemize}[leftmargin=0.6cm, itemsep=-0.1cm, topsep=0cm]
 ((* for bullet in project.bullets *))
     \item ((( bullet | replace('%', '\\%') )))
 ((* endfor *))
 \end{itemize}
-\vspace{0.02cm}
+((* endfor *))
+
+\vspace{-0.4cm}
+\section*{LEADERSHIP}
+\vspace{-0.1cm}
+((* for lead in leadership *))
+\noindent
+\textbf{((( lead.title ))) \textbar{} ((( lead.org )))((* if lead.institution *)) \textbar{} ((( lead.institution ))) ((* endif *)) \hfill ((( lead.date)))} \\
+\vspace{-0.4cm}
+\begin{itemize}[leftmargin=0.6cm, itemsep=-0.1cm, topsep=0cm]
+((* for bullet in lead.bullets *))
+    \item ((( bullet | replace('%', '\\%') )))
+((* endfor *))
+\end{itemize}
 ((* endfor *))
 
 
@@ -82,7 +87,14 @@
 \textbf{((( cert.name ))) \textbar{} ((( cert.org ))) } \hfill \textbf{((( cert.date ))) }
 ((* endfor *))
 
-
+\vspace{-0.4cm} 
+\section*{TECHNICAL SKILLS} 
+\vspace{-0.2cm}
+\noindent
+\textbf{Programming:} ((( skills.Programming | join(", ") ))) \\
+\textbf{ML and AI:} ((( skills.ML | join(", ") ))) \\
+\textbf{Cloud and DevOps:} ((( skills.Cloud | join(", ") ))) \\
+\textbf{Visualization and APIs:} ((( skills.Visualization | join(", ") )))
 
 
 

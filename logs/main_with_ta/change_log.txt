@@ -1,0 +1,32 @@
+
+
+--- 2025-08-07 11:52:27 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -10,7 +10,7 @@
+       "degree": "MS Data Science",
+       "school": "Drexel University",
+       "location": "Philadelphia, PA",
+-      "date": "Sept 2023 -- June 2025",
++      "date": "Sept 2023 -- June 202",
+       "gpa": "3.9"
+     },
+     {
+
+
+--- 2025-08-07 11:52:37 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -10,7 +10,7 @@
+       "degree": "MS Data Science",
+       "school": "Drexel University",
+       "location": "Philadelphia, PA",
+-      "date": "Sept 2023 -- June 202",
++      "date": "Sept 2023 -- June 2025",
+       "gpa": "3.9"
+     },
+     {

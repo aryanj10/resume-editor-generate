@@ -29,8 +29,7 @@
       "bullets": [
         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
         "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
-        "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making",
-        "\\textbf{Skills:} Data extraction, Retrieval-Augmented Generation, ETL Pipelines, FAISS, Dashboards, Business Analytics"
+        "Identified \\$12K+ EBITDA gaps from high maintenance, overtime, helping execs focus on underperforming locations"
       ]
     },
     {
@@ -40,43 +39,39 @@
       "duration": "June 2024 -- Sept 2024",
       "bullets": [
         "Migrated 1000+ student records from Trello, Evernote, and Zoho to Monday.com with 99% data accuracy",
-        "Developed Python-based automation scripts to trigger workflows from form submissions, reducing manual tasks by 48%",
-        "\\textbf{Skills:} Data migration, Process automation, CRM Systems, Python scripting, GraphQL"
+        "Built automation scripts to trigger workflows from form fills, cutting manual task handling by 48%"
       ]
     },
     {
-      "title": "Data Science Intern",
+      "title": "Data Scientist, Junior Associate",
       "company": "Celebal Technologies",
       "location": "India",
       "duration": "Jan 2021 -- Sept 2022",
       "bullets": [
         "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific XGBoost solutions to improve accuracy in weak-performing sectors",
         "Presented EDA and modeling insights to the client, highlighting where the model's performance dropped across industries",
-        "Spearheaded development and deployment of forecasting APIs using SARIMA and Prophet on Azure for BI dashboards",
-        "\\textbf{Skills:}  XGBoost, EDA, Forecasting APIs, SARIMA, Prophet, Azure, Business Intelligence"
+        "Led P\\&L dashboard build; developed forecasting APIs (SARIMA, Prophet) and deployed on Azure for BI integration"
       ]
     }
   ],
   "projects": [
     {
       "title": "LLM-Powered Payroll Migration Tool",
-      "org": "Freelance",
+      "org": "Personal Project",
       "date": "July 2025",
       "bullets": [
         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
         "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
-        "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
-        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, Automation, PDF Parsing, RPA, ETL Pipelines, Gemini API"
+        "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations"
       ]
     },
     {
       "title": "CW-RIS: Child Wind Risk Intelligence System",
-      "org": "United Nations Hackathon",
+      "org": "UN Tech Over Hackathon",
       "date": "June 2025",
       "bullets": [
-        "Built an Streamlit application overlaying ERA5 wind data with child population exposure to identify high-risk zones",
-        "Conducted zonal analysis using raster-vector geospatial data to compute risk indexes for humanitarian insights",
-        "\\textbf{Skills:} Geospatial analysis, Raster data, Streamlit, Risk modeling, ERA5, Humanitarian tech"
+        "Built Streamlit app that overlays ERA5 wind data with child population exposure to map high-risk zones",
+        "Computed zonal statistics and risk scores using raster and vector geospatial data for humanitarian use"
       ]
     },
     {
@@ -84,9 +79,8 @@
       "org": "Philly Codefest 2025",
       "date": "Mar 2025",
       "bullets": [
-        "Produced generative AI-based animated video using META AI and Runway ML for realistic character and scene creation",
-        "Integrated GPT-4 and ElevenLabs for script generation and voice synthesis, creating expressive and human-like dialogues",
-        "\\textbf{Skills:} Generative AI, GPT-4, ElevenLabs, Animation, Meta AI, Multi-modal models"
+        "Created a generative AI-based animated video using tools like META AI, Runway ML for character and scene generation",
+        "Integrated GPT-4 and ElevenLabs for script generation and voice synthesis, creating expressive and human-like dialogues"
       ]
     },
     {
@@ -94,9 +88,30 @@
       "org": "Drexel University",
       "date": "Jan 2025 -- June 2025",
       "bullets": [
-        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000+ image in under 7 seconds",
-        "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 32% on A100 GPUs",
-        "\\textbf{Skills:} NVIDIA Triton, PyTorch, CUDA, ResNet, High-performance computing, Model deployment"
+        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s per request",
+        "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 40% on A100 GPUs"
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Teaching Assistant",
+      "org": "Data Science Programming",
+      "institution": "Drexel University",
+      "date": "Mar 2025 -- June 2025",
+      "bullets": [
+        "Assisted instruction for 70+ students in Python, Linux, Github, and efficient data processing with NumPy and Pandas",
+        "Designed and graded coding tasks on  NumPy, data wrangling, file I/O, and high-performance computing techniques"
+      ]
+    },
+    {
+      "title": "Course Assistant",
+      "org": "Human-AI Interaction",
+      "institution": "Drexel University",
+      "date": "Dec 2024 -- Mar 2025",
+      "bullets": [
+        "Guided 30+ students on ethical AI frameworks, algorithmic fairness, explainable AI, and responsible data ownership",
+        "Provided project mentorship and feedback aligned with Responsible AI curriculum"
       ]
     }
   ],

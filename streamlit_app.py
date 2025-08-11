@@ -14,13 +14,25 @@ st.markdown("# 📄 Resume Editor")
 # --- Sidebar options ---
 resume_type = st.sidebar.selectbox("Resume Type", ["Main", "Data Analyst"])
 with_publication = st.sidebar.checkbox("Include Publications", value=False)
+with_ta = st.sidebar.checkbox("Include Teaching Assistant Experience", value=False)
 
 # --- Path Construction ---
 variant_folder = resume_type.lower().replace(" ", "_")
 suffix = "_with_publication" if with_publication else ""
+suffix += "_with_ta" if with_ta else ""
 
 DATA_PATH = os.path.join("resume_data", variant_folder, f"resume_data{suffix}.json")
-TEMPLATE_PATH = os.path.join("template", f"resume_template{suffix}.tex") if with_publication else os.path.join("template", "resume_template.tex")
+if with_publication and with_ta:
+    template_file = "resume_template_with_publication_and_ta.tex"
+elif with_publication:
+    template_file = "resume_template_with_publication.tex"
+elif with_ta:
+    template_file = "resume_template_with_ta.tex"
+else:
+    template_file = "resume_template.tex"
+
+TEMPLATE_PATH = os.path.join("template", template_file)
+
 OUTPUT_DIR = os.path.join("output", f"{variant_folder}{suffix}")
 PDF_PATH = os.path.join(OUTPUT_DIR, "Aryan_Jain_Resume.pdf")
 
@@ -57,7 +69,7 @@ with tab1:
             language="json",
             theme="chrome",
             height=800,
-            key=f"editor_{variant_folder}_{'pub' if with_publication else 'no_pub'}"
+            key=f"editor_{variant_folder}_{'pub' if with_publication else 'no_pub'}_{'ta' if with_ta else 'no_ta'}"
         )
 
         if updated_code and updated_code != st.session_state.editor_content:

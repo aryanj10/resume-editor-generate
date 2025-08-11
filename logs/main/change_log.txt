@@ -1378,3 +1378,870 @@ Changes:
    "email": "aj3246@drexel.edu",
    "phone": "(267) 315-9768",
    "linkedin": "https://linkedin.com/in/aryanj10",
+
+
+--- 2025-07-30 10:09:17 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -88,7 +88,7 @@
+       "org": "Drexel University",
+       "date": "Jan 2025 -- June 2025",
+       "bullets": [
+-        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s per request",
++        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server (Docker) to batch infer 10,000 images in 5s per request",
+         "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 40% on A100 GPUs"
+       ]
+     }
+
+
+--- 2025-07-30 10:09:50 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -88,7 +88,7 @@
+       "org": "Drexel University",
+       "date": "Jan 2025 -- June 2025",
+       "bullets": [
+-        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server (Docker) to batch infer 10,000 images in 5s per request",
++        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s per request",
+         "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 40% on A100 GPUs"
+       ]
+     }
+
+
+--- 2025-08-07 09:53:55 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -27,9 +27,9 @@
+       "location": "Dallas, TX",
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+-        "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+-        "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+-        "Identified \\$12K+ EBITDA gaps from high maintenance, overtime, helping execs focus on underperforming locations"
++        "Extracted and synthesized P\\&L data for 178 stores from R365 to create interactive dashboards visualizing revenue, costs, and EBITDA comparisons",
++        "Engineered a Retrieval-Augmented Generation (RAG) tool using FAISS and LLM APIs to answer complex business queries dynamically",
++        "Diagnosed and flagged over \\$12K+ EBITDA discrepancies caused by maintenance and overtime issues, enhancing executive-level decision-making"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 09:57:10 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -27,7 +27,7 @@
+       "location": "Dallas, TX",
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+-        "Extracted and synthesized P\\&L data for 178 stores from R365 to create interactive dashboards visualizing revenue, costs, and EBITDA comparisons",
++        "Extracted and synthesized P\\&L data for 178 stores from R365 to create dashboards visualizing revenue, costs, and EBITDA comparisons",
+         "Engineered a Retrieval-Augmented Generation (RAG) tool using FAISS and LLM APIs to answer complex business queries dynamically",
+         "Diagnosed and flagged over \\$12K+ EBITDA discrepancies caused by maintenance and overtime issues, enhancing executive-level decision-making"
+       ]
+
+
+--- 2025-08-07 09:58:07 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -27,7 +27,7 @@
+       "location": "Dallas, TX",
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+-        "Extracted and synthesized P\\&L data for 178 stores from R365 to create dashboards visualizing revenue, costs, and EBITDA comparisons",
++        "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Engineered a Retrieval-Augmented Generation (RAG) tool using FAISS and LLM APIs to answer complex business queries dynamically",
+         "Diagnosed and flagged over \\$12K+ EBITDA discrepancies caused by maintenance and overtime issues, enhancing executive-level decision-making"
+       ]
+
+
+--- 2025-08-07 09:58:30 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -28,7 +28,7 @@
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+-        "Engineered a Retrieval-Augmented Generation (RAG) tool using FAISS and LLM APIs to answer complex business queries dynamically",
++        "Engineered a RAG tool using FAISS and LLM APIs to answer complex business queries dynamically",
+         "Diagnosed and flagged over \\$12K+ EBITDA discrepancies caused by maintenance and overtime issues, enhancing executive-level decision-making"
+       ]
+     },
+
+
+--- 2025-08-07 09:59:00 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -29,7 +29,7 @@
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Engineered a RAG tool using FAISS and LLM APIs to answer complex business queries dynamically",
+-        "Diagnosed and flagged over \\$12K+ EBITDA discrepancies caused by maintenance and overtime issues, enhancing executive-level decision-making"
++        "Diagnosed and flagged over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive-level decision-making"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 09:59:48 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -29,7 +29,7 @@
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Engineered a RAG tool using FAISS and LLM APIs to answer complex business queries dynamically",
+-        "Diagnosed and flagged over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive-level decision-making"
++        "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive-level decision-making"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:00:43 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -29,7 +29,7 @@
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Engineered a RAG tool using FAISS and LLM APIs to answer complex business queries dynamically",
+-        "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive-level decision-making"
++        "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing exec-level decision-making"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:01:09 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -29,7 +29,7 @@
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Engineered a RAG tool using FAISS and LLM APIs to answer complex business queries dynamically",
+-        "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing exec-level decision-making"
++        "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:03:07 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -28,7 +28,7 @@
+       "duration": "Sept 2024 -- Dec 2024",
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+-        "Engineered a RAG tool using FAISS and LLM APIs to answer complex business queries dynamically",
++        "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+         "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making"
+       ]
+     },
+
+
+--- 2025-08-07 10:04:26 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -29,7 +29,8 @@
+       "bullets": [
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+-        "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making"
++        "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making",
++        "Skills\\: Data extraction, RAG systems, LLM integration, FAISS, Dashboards, Business Analytics"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:04:36 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -30,7 +30,7 @@
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+         "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making",
+-        "Skills\\: Data extraction, RAG systems, LLM integration, FAISS, Dashboards, Business Analytics"
++        "Skills: Data extraction, RAG systems, LLM integration, FAISS, Dashboards, Business Analytics"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:06:00 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -30,7 +30,7 @@
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+         "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making",
+-        "Skills: Data extraction, RAG systems, LLM integration, FAISS, Dashboards, Business Analytics"
++        "\textbf{Skills:} Data extraction, RAG systems, LLM integration, FAISS, Dashboards, Business Analytics"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:06:09 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -30,7 +30,7 @@
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+         "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making",
+-        "\textbf{Skills:} Data extraction, RAG systems, LLM integration, FAISS, Dashboards, Business Analytics"
++        "\\textbf{Skills:} Data extraction, RAG systems, LLM integration, FAISS, Dashboards, Business Analytics"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:06:53 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -40,7 +40,7 @@
+       "duration": "June 2024 -- Sept 2024",
+       "bullets": [
+         "Migrated 1000+ student records from Trello, Evernote, and Zoho to Monday.com with 99% data accuracy",
+-        "Built automation scripts to trigger workflows from form fills, cutting manual task handling by 48%"
++        "Developed Python-based automation scripts to trigger workflows from form submissions, reducing manual tasks by 48%"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:08:16 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -40,7 +40,8 @@
+       "duration": "June 2024 -- Sept 2024",
+       "bullets": [
+         "Migrated 1000+ student records from Trello, Evernote, and Zoho to Monday.com with 99% data accuracy",
+-        "Developed Python-based automation scripts to trigger workflows from form submissions, reducing manual tasks by 48%"
++        "Developed Python-based automation scripts to trigger workflows from form submissions, reducing manual tasks by 48%",
++        "\\textbf{Skills:} Data migration, Process automation, CRM Systems, Python scripting, GraphQL"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:10:03 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -52,7 +52,7 @@
+       "bullets": [
+         "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific XGBoost solutions to improve accuracy in weak-performing sectors",
+         "Presented EDA and modeling insights to the client, highlighting where the model's performance dropped across industries",
+-        "Led P\\&L dashboard build; developed forecasting APIs (SARIMA, Prophet) and deployed on Azure for BI integration"
++        "Spearheaded development and deployment of forecasting APIs using SARIMA and Prophet on Azure for BI dashboards"
+       ]
+     }
+   ],
+
+
+--- 2025-08-07 10:11:59 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -52,7 +52,8 @@
+       "bullets": [
+         "Analyzed prediction gaps in revenue and headcount models for 20M+ US/Canada business records; developed industry-specific XGBoost solutions to improve accuracy in weak-performing sectors",
+         "Presented EDA and modeling insights to the client, highlighting where the model's performance dropped across industries",
+-        "Spearheaded development and deployment of forecasting APIs using SARIMA and Prophet on Azure for BI dashboards"
++        "Spearheaded development and deployment of forecasting APIs using SARIMA and Prophet on Azure for BI dashboards",
++        "\\textbf{Skills:}  XGBoost, EDA, Forecasting APIs, SARIMA, Prophet, Azure, Business Intelligence"
+       ]
+     }
+   ],
+
+
+--- 2025-08-07 10:14:02 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -63,8 +63,8 @@
+       "org": "Personal Project",
+       "date": "July 2025",
+       "bullets": [
+-        "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+-        "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
++        "Engineered PDF parser using Gemini LLM to convert 1000+ payroll documents into structured JSON format",
++        "Automated payroll uploads via Playwright bot for 85+ clients on non-API portals, saving 10+ weeks of manual work",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations"
+       ]
+     },
+
+
+--- 2025-08-07 10:15:06 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -65,7 +65,7 @@
+       "bullets": [
+         "Engineered PDF parser using Gemini LLM to convert 1000+ payroll documents into structured JSON format",
+         "Automated payroll uploads via Playwright bot for 85+ clients on non-API portals, saving 10+ weeks of manual work",
+-        "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations"
++        "Delivered \\$20K+ cost savings; generated \\$2K+ in revenue via tool reuse for new client payroll migrations"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:17:28 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -45,7 +45,7 @@
+       ]
+     },
+     {
+-      "title": "Data Scientist, Junior Associate",
++      "title": "Data Scientist Intern",
+       "company": "Celebal Technologies",
+       "location": "India",
+       "duration": "Jan 2021 -- Sept 2022",
+
+
+--- 2025-08-07 10:17:46 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -45,7 +45,7 @@
+       ]
+     },
+     {
+-      "title": "Data Scientist Intern",
++      "title": "Data Scientist, Junior Associate (Intern)",
+       "company": "Celebal Technologies",
+       "location": "India",
+       "duration": "Jan 2021 -- Sept 2022",
+
+
+--- 2025-08-07 10:18:58 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -45,7 +45,7 @@
+       ]
+     },
+     {
+-      "title": "Data Scientist, Junior Associate (Intern)",
++      "title": "Data Science Intern",
+       "company": "Celebal Technologies",
+       "location": "India",
+       "duration": "Jan 2021 -- Sept 2022",
+
+
+--- 2025-08-07 10:20:22 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -65,7 +65,8 @@
+       "bullets": [
+         "Engineered PDF parser using Gemini LLM to convert 1000+ payroll documents into structured JSON format",
+         "Automated payroll uploads via Playwright bot for 85+ clients on non-API portals, saving 10+ weeks of manual work",
+-        "Delivered \\$20K+ cost savings; generated \\$2K+ in revenue via tool reuse for new client payroll migrations"
++        "Delivered \\$20K+ cost savings; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
++        "\\textbf{Skills:} Geospatial analysis, Raster data, Streamlit, Risk modeling, ERA5, Humanitarian tech"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:20:49 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+         "Engineered PDF parser using Gemini LLM to convert 1000+ payroll documents into structured JSON format",
+         "Automated payroll uploads via Playwright bot for 85+ clients on non-API portals, saving 10+ weeks of manual work",
+         "Delivered \\$20K+ cost savings; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+-        "\\textbf{Skills:} Geospatial analysis, Raster data, Streamlit, Risk modeling, ERA5, Humanitarian tech"
++        "\\textbf{Skills:} LLMs, Playwright, PDF Parsing, Automation, JSON transformation, Client delivery"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:21:46 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+         "Engineered PDF parser using Gemini LLM to convert 1000+ payroll documents into structured JSON format",
+         "Automated payroll uploads via Playwright bot for 85+ clients on non-API portals, saving 10+ weeks of manual work",
+         "Delivered \\$20K+ cost savings; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+-        "\\textbf{Skills:} LLMs, Playwright, PDF Parsing, Automation, JSON transformation, Client delivery"
++        "\\textbf{Skills:} LLMs, Playwright, PDF Parsing, Automation, JSON transformation, Client delivery, Role Playing Agents"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:22:39 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -30,7 +30,7 @@
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+         "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making",
+-        "\\textbf{Skills:} Data extraction, RAG systems, LLM integration, FAISS, Dashboards, Business Analytics"
++        "\\textbf{Skills:} Data extraction, Retrieval-Augmented Generation  systems, LLM integration, FAISS, Dashboards, Business Analytics"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:23:02 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -30,7 +30,7 @@
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+         "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making",
+-        "\\textbf{Skills:} Data extraction, Retrieval-Augmented Generation  systems, LLM integration, FAISS, Dashboards, Business Analytics"
++        "\\textbf{Skills:} Data extraction, Retrieval-Augmented Generation systems, LLM integration, FAISS, Dashboards, Business Analytics"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:23:12 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -30,7 +30,7 @@
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+         "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making",
+-        "\\textbf{Skills:} Data extraction, Retrieval-Augmented Generation systems, LLM integration, FAISS, Dashboards, Business Analytics"
++        "\\textbf{Skills:} Data extraction, Retrieval-Augmented Generation, LLM integration, FAISS, Dashboards, Business Analytics"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:25:18 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -74,7 +74,7 @@
+       "org": "UN Tech Over Hackathon",
+       "date": "June 2025",
+       "bullets": [
+-        "Built Streamlit app that overlays ERA5 wind data with child population exposure to map high-risk zones",
++        "Built an interactive Streamlit application overlaying ERA5 wind data with child population exposure to identify high-risk zones",
+         "Computed zonal statistics and risk scores using raster and vector geospatial data for humanitarian use"
+       ]
+     },
+
+
+--- 2025-08-07 10:25:28 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -74,7 +74,7 @@
+       "org": "UN Tech Over Hackathon",
+       "date": "June 2025",
+       "bullets": [
+-        "Built an interactive Streamlit application overlaying ERA5 wind data with child population exposure to identify high-risk zones",
++        "Built an Streamlit application overlaying ERA5 wind data with child population exposure to identify high-risk zones",
+         "Computed zonal statistics and risk scores using raster and vector geospatial data for humanitarian use"
+       ]
+     },
+
+
+--- 2025-08-07 10:26:04 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -75,7 +75,7 @@
+       "date": "June 2025",
+       "bullets": [
+         "Built an Streamlit application overlaying ERA5 wind data with child population exposure to identify high-risk zones",
+-        "Computed zonal statistics and risk scores using raster and vector geospatial data for humanitarian use"
++        "Conducted zonal analysis using raster-vector geospatial data to compute risk indexes for humanitarian insights"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:26:34 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -71,7 +71,7 @@
+     },
+     {
+       "title": "CW-RIS: Child Wind Risk Intelligence System",
+-      "org": "UN Tech Over Hackathon",
++      "org": "United Nations Hackathon",
+       "date": "June 2025",
+       "bullets": [
+         "Built an Streamlit application overlaying ERA5 wind data with child population exposure to identify high-risk zones",
+
+
+--- 2025-08-07 10:27:25 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -75,7 +75,8 @@
+       "date": "June 2025",
+       "bullets": [
+         "Built an Streamlit application overlaying ERA5 wind data with child population exposure to identify high-risk zones",
+-        "Conducted zonal analysis using raster-vector geospatial data to compute risk indexes for humanitarian insights"
++        "Conducted zonal analysis using raster-vector geospatial data to compute risk indexes for humanitarian insights",
++        "\\textbf{Skills:} Geospatial analysis, Raster data, Streamlit, Risk modeling, ERA5, Humanitarian tech"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:30:20 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -84,8 +84,9 @@
+       "org": "Philly Codefest 2025",
+       "date": "Mar 2025",
+       "bullets": [
+-        "Created a generative AI-based animated video using tools like META AI, Runway ML for character and scene generation",
+-        "Integrated GPT-4 and ElevenLabs for script generation and voice synthesis, creating expressive and human-like dialogues"
++        "Produced generative AI-based animated video using META AI and Runway ML for realistic character and scene creation",
++        "Integrated GPT-4 and ElevenLabs for script generation and voice synthesis, creating expressive and human-like dialogues",
++        "\\textbf{Skills:} Generative AI, GPT-4, ElevenLabs, Animation, Meta AI, Multi-modal models"
+       ]
+     },
+     {
+
+
+--- 2025-08-07 10:33:23 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -94,7 +94,7 @@
+       "org": "Drexel University",
+       "date": "Jan 2025 -- June 2025",
+       "bullets": [
+-        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000 images in 5s per request",
++        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch process 10,000+ image inferences in under 7 seconds",
+         "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 40% on A100 GPUs"
+       ]
+     }
+
+
+--- 2025-08-07 10:34:23 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -94,7 +94,7 @@
+       "org": "Drexel University",
+       "date": "Jan 2025 -- June 2025",
+       "bullets": [
+-        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch process 10,000+ image inferences in under 7 seconds",
++        "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000+ image in under 7 seconds",
+         "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 40% on A100 GPUs"
+       ]
+     }
+
+
+--- 2025-08-07 10:35:22 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -95,7 +95,7 @@
+       "date": "Jan 2025 -- June 2025",
+       "bullets": [
+         "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000+ image in under 7 seconds",
+-        "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 40% on A100 GPUs"
++        "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 32% on A100 GPUs"
+       ]
+     }
+   ],
+
+
+--- 2025-08-07 10:36:29 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -95,7 +95,8 @@
+       "date": "Jan 2025 -- June 2025",
+       "bullets": [
+         "Deployed ResNet-based classifier on NVIDIA Triton Inference Server to batch infer 10,000+ image in under 7 seconds",
+-        "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 32% on A100 GPUs"
++        "Optimized PyTorch training pipeline using CUDA kernels, cutting training time by 32% on A100 GPUs",
++        "\\textbf{Skills:} NVIDIA Triton, PyTorch, CUDA, ResNet, High-performance computing, Model deployment"
+       ]
+     }
+   ],
+
+
+--- 2025-08-07 10:39:30 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -100,28 +100,6 @@
+       ]
+     }
+   ],
+-  "leadership": [
+-    {
+-      "title": "Teaching Assistant",
+-      "org": "Data Science Programming",
+-      "institution": "Drexel University",
+-      "date": "Mar 2025 -- June 2025",
+-      "bullets": [
+-        "Assisted instruction for 70+ students in Python, Linux, Github, and efficient data processing with NumPy and Pandas",
+-        "Designed and graded coding tasks on  NumPy, data wrangling, file I/O, and high-performance computing techniques"
+-      ]
+-    },
+-    {
+-      "title": "Course Assistant",
+-      "org": "Human-AI Interaction",
+-      "institution": "Drexel University",
+-      "date": "Dec 2024 -- Mar 2025",
+-      "bullets": [
+-        "Guided 30+ students on ethical AI frameworks, algorithmic fairness, explainable AI, and responsible data ownership",
+-        "Provided project mentorship and feedback aligned with Responsible AI curriculum"
+-      ]
+-    }
+-  ],
+   "certifications": [
+     {
+       "name": "Azure Data Scientist Associate",
+
+
+--- 2025-08-07 11:13:28 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -63,7 +63,7 @@
+       "org": "Personal Project",
+       "date": "July 2025",
+       "bullets": [
+-        "Engineered PDF parser using Gemini LLM to convert 1000+ payroll documents into structured JSON format",
++        "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+         "Automated payroll uploads via Playwright bot for 85+ clients on non-API portals, saving 10+ weeks of manual work",
+         "Delivered \\$20K+ cost savings; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+         "\\textbf{Skills:} LLMs, Playwright, PDF Parsing, Automation, JSON transformation, Client delivery, Role Playing Agents"
+
+
+--- 2025-08-07 11:15:01 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -64,7 +64,7 @@
+       "date": "July 2025",
+       "bullets": [
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+-        "Built Playwright bot to automate payroll uploads to Accountant World\u2019s non-API portal across 85+ clients",
++        "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+         "\\textbf{Skills:} LLMs, Playwright, PDF Parsing, Automation, JSON transformation, Client delivery, Role Playing Agents"
+       ]
+
+
+--- 2025-08-07 11:16:02 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -60,7 +60,7 @@
+   "projects": [
+     {
+       "title": "LLM-Powered Payroll Migration Tool",
+-      "org": "Personal Project",
++      "org": "Freelance",
+       "date": "July 2025",
+       "bullets": [
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+
+
+--- 2025-08-11 12:31:10 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+         "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+-        "\\textbf{Skills:} LLMs, Playwright, PDF Parsing, Automation, JSON transformation, Client delivery, Role Playing Agents"
++        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, PDF Parsing, Automation, Role Playing Agents"
+       ]
+     },
+     {
+
+
+--- 2025-08-11 12:31:52 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+         "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+-        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, PDF Parsing, Automation, Role Playing Agents"
++        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, PDF Parsing, Automation, RPA"
+       ]
+     },
+     {
+
+
+--- 2025-08-11 12:32:49 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+         "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+-        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, PDF Parsing, Automation, RPA"
++        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, PDF Parsing, Automation, RPA, ETL Pipelines"
+       ]
+     },
+     {
+
+
+--- 2025-08-11 12:33:15 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -30,7 +30,7 @@
+         "Extracted P\\&L data for 178 stores from R365 and built dashboards to compare revenue, costs, and EBITDA across stores",
+         "Built a RAG tool with FAISS + LLM API to answer queries like Which Region X store had highest revenue in Period Y?",
+         "Diagnosed over \\$12K+ EBITDA gaps caused by maintenance and overtime issues, enhancing executive decision-making",
+-        "\\textbf{Skills:} Data extraction, Retrieval-Augmented Generation, LLM integration, FAISS, Dashboards, Business Analytics"
++        "\\textbf{Skills:} Data extraction, Retrieval-Augmented Generation, ETL Pipelines, FAISS, Dashboards, Business Analytics"
+       ]
+     },
+     {
+
+
+--- 2025-08-11 12:34:34 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+         "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+-        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, PDF Parsing, Automation, RPA, ETL Pipelines"
++        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, Automation, PDF Parsing, RPA (Robotic Process Automation), ETL Pipelines"
+       ]
+     },
+     {
+
+
+--- 2025-08-11 12:34:59 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+         "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+-        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, Automation, PDF Parsing, RPA (Robotic Process Automation), ETL Pipelines"
++        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, Automation, PDF Parsing, RPA, ETL Pipelines"
+       ]
+     },
+     {
+
+
+--- 2025-08-11 12:36:11 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+         "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+-        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, Automation, PDF Parsing, RPA, ETL Pipelines"
++        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, Automation, PDF Parsing, RPA, ETL Pipelines, Generative AI, Gemini API"
+       ]
+     },
+     {
+
+
+--- 2025-08-11 12:36:42 ---
+Variant: main, Publication: No
+Changes:
+--- old
++++ new
+@@ -66,7 +66,7 @@
+         "Parsed 1000+ payroll PDFs into structured JSON using Gemini LLM; saved 10+ weeks of manual data entry",
+         "Built Playwright bot to automate payroll uploads to Accountant World's non-API portal across 85+ clients",
+         "Saved \\$20K+ in labor costs; generated \\$2K+ in revenue via tool reuse for new client payroll migrations",
+-        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, Automation, PDF Parsing, RPA, ETL Pipelines, Generative AI, Gemini API"
++        "\\textbf{Skills:} LLMs, Prompt Engineering, Playwright, Automation, PDF Parsing, RPA, ETL Pipelines, Gemini API"
+       ]
+     },
+     {
